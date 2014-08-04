@@ -1,0 +1,62 @@
+{{!< layout.hbs }}
+
+<!-- Intro -->
+<section id="top" class="dark cover article-fullimg">
+    <div class="container">
+
+        <header>
+            <div id="lead-image">
+                <div id="lead-title">
+                    <h2><a href="{{page.url}}">{{page.title}}</a></h2>
+                    <p class="date"><span>{{date page.metadata.date}}</span></p>
+                </div>
+                <div class="credit">{{page.metadata.image-credit}}</div>
+            </div>
+        </header>
+
+    </div>
+</section>
+
+<!-- post -->
+<section id="post">
+    <article class="container box style3">
+
+        <section>
+            {{{typogr page.html}}}
+        </section>
+
+        {{> sharer}}
+
+        {{#if page.metadata.comments}}
+            {{> disqus}}
+        {{/if}}
+
+    </article>
+
+    <!-- Back to Blog Box -->
+    <article id="blog-box" class="container box style2">
+        <div class="inner">
+            <a href="/blog/" class="button">Return to blog</a>
+        </div>
+    </article>
+</section>
+
+<script>
+    var doc = document.documentElement;
+    var title = document.getElementById('lead-title');
+    var header = document.getElementById('top');
+    header.style.height = window.innerHeight + "px";
+    window.onload = function() {
+        var tmp = new Image();
+        var url = "{{page.metadata.image}}";
+        tmp.onload = function() {
+            header.style.backgroundImage = "url('"+url+"')";
+        };
+        tmp.src = url;
+        window.onscroll = function() {
+            var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+            title.style.webkitTransform = 'translate3d(0px, ' + top/5 + 'px, 0px)';
+            title.style.opacity = 1 - top/500;
+        }
+    }
+</script>

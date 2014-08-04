@@ -1,0 +1,17 @@
+{{!< layout.hbs }}
+
+<!-- page -->
+<section id="post">
+    <article class="container box style3">
+        <header>
+            <h2><a href="{{page.url}}">{{page.title}}</a></h2>
+        </header>
+        <section>
+            {{{typogr page.html}}}
+        </section>
+
+        {{> sharer}}
+
+    </article>
+
+</section>
