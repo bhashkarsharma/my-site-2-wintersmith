@@ -4,7 +4,8 @@
     "name": "Bhashkar Sharma",
     "owner": "Bhashkar Sharma",
     "description": "Dreamer. Wonderer.",
-    "feedPath": "/feed.xml"
+    "feedPath": "/feed.xml",
+    "analytics_id": "UA-2340837-4"
   },
   "port" : "8000",
   "plugins": [
