@@ -1,0 +1,588 @@
+<!--
+                                                          _ 
+|  ||_  _ |_   _  _ _     _      | _  _ | . _  _    _ |_   )
+|/\|| )(_||_  (_|| (-  \/(_)|_|  |(_)(_)|(|| )(_)  (_||_  . 
+                       /                      _/            
+                              
+|__| _    _   _   | .|_|_     
+|  |(_|\/(-  (_|  |(||_|_\/.  
+                         /    
+    
+                   .               ,.
+                  T."-._..---.._,-"/|
+                  l|"-.  _.v._   (" |
+                  [l /.'_ \; _~"-.`-t
+                  Y " _(o} _{o)._ ^.|
+                  j  T  ,-<v>-.  T  ]
+                  \  l ( /-^-\ ) !  !
+                   \. \.  "~"  ./  /c-..,__
+                     ^r- .._ .- .-"  `- .  ~"--.
+                      > \.                      \
+                      ]   ^.                     \
+                      3  .  ">            .       Y  
+         ,.__.--._   _j   \ ~   .         ;       |
+        (    ~"-._~"^._\   ^.    ^._      I     . l
+         "-._ ___ ~"-,_7    .Z-._   7"   Y      ;  \       
+            /"   "~-(r r  _/_--._~-/    /      /,.--^-._   
+            "-._    '"~~~>-._~]>--^---./____,.^~        ^.
+                ~--._    '   Y---.                        \
+                     ~~--._  l_   )                        \
+                           ~-._~~~---._,____..---           \
+                               ~----"~       \
+                                              \
+-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>Snake | Bhashkar Sharma</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
+    <meta name="description" content="
+#post section {
+    text-align: center;
+} #page .box.style3 {
+    text-align: center;
+} #game {
+    border: 10px solid;
+    border-radius: 10px;
+}
+
+
+I created this when I was getting bored waiting for something. I was missing the old-school brick game, and figured I’d try replicating the experience.
+
+Score: 
+
+
+brick = function(selector) {
+    var el = $(selector);
+    var w = el.width();
+    var h = el.height();
+    var ctx = el[0].getContext(&#x27;2d&#x27;);
+    var colors = {
+        &#x27;bg&#x27; : &#x27;#acc4ac&#x27;,
+        &#x27;fg&#x27; : &#x27;#444&#x27;
+    };
+    // cell size
+    var cs = 10;
+    //draw a box with brick co-ordinates x, y and size cs
+    var draw_brick = function(x, y, color, border) {
+        if (color == undefined) color = colors.fg;
+        if (border == undefined) border = colors.bg;
+        ctx.fillStyle = color;
+        ctx.strokeStyle = border;
+        ctx.moveTo(x * cs, y * cs);
+        ctx.lineTo((x + 1) * cs, y * cs);
+        ctx.lineTo(x * cs, (y + 1 ) * cs);
+        ctx.closePath();
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc((x * cs) + cs/2, (y * cs) + cs/2, Math.round(cs/2 - 2), Math.PI * 3/4, Math.PI * 7/4, false);
+        ctx.fillStyle = border;
+        ctx.fill();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.arc((x * cs) + cs/2, (y * cs) + cs/2, Math.round(cs/2 - 2), Math.PI * 7/4, Math.PI * 3/4, false);
+        ctx.fillStyle = color;
+        ctx.fill();
+        ctx.closePath();
+        ctx.strokeWidth = 1;
+        ctx.strokeStyle = color;
+        ctx.strokeRect(x * cs, y * cs, cs, cs);
+    }
+    // clear screen
+    var cls = function() {
+        ctx.fillStyle = colors.bg;
+        ctx.fillRect(0, 0, w, h);
+        ctx.strokeStyle = &quot;black&quot;;
+        ctx.strokeRect(0, 0, w, h);
+    }
+    return {
+        &#x27;cls&#x27; : cls,
+        &#x27;draw_brick&#x27; : draw_brick,
+        &#x27;w&#x27; : Math.floor(w/cs),
+        &#x27;h&#x27; : Math.floor(h/cs)
+    }
+}
+
+$(document).ready(function() {
+    // initial direction
+    var d = &#x27;right&#x27;;
+    // number of ms before the snake moves again
+    var speed = 100;
+    //level
+    var level = 0;
+    // score
+    var score = 0;
+    var interval;
+    var game = brick(&#x27;#game&#x27;);
+    // the snake object
+    var snake = {
+        length : 5,
+        body : [],
+        init : function() {
+            snake.length = 5;
+            snake.body = [];
+            for (var i=snake.length; i&gt;0; i--) {
+                //console.log(i)
+                snake.body.push({ x : i, y : 20 });
+                //console.log(JSON.stringify(snake.body), snake.body.length)
+            }
+            //console.log(JSON.stringify(snake.body))
+        },
+        draw : function() {
+            game.cls();
+            for (var i in snake.body) {
+                game.draw_brick(snake.body[i].x, snake.body[i].y);
+            }
+        },
+        move : function() {
+            var head = snake.body[0];
+            var dx = head.x;
+            var dy = head.y;
+            if (d == &quot;left&quot;) {
+                if (dx &gt; 0) {
+                    dx--;
+                } else {
+                    dx = game.w;
+                }
+            } else if (d == &quot;right&quot;) {
+                if (dx  0) {
+                    dy--;
+                } else {
+                    dy = game.h;
+                } 
+            }
+            else if (d == &quot;down&quot;) {
+                if (dy  0 &amp;&amp; score % 100 == 0) {
+                    console.log(&#x27;score &#x27;, score)
+                    level++;
+                    console.log(level)
+                    wall.init();
+                }
+            }
+
+            var tail = snake.body.pop();
+            tail.x = dx;
+            tail.y = dy;
+            snake.body.unshift(tail);
+            //console.log(JSON.stringify(snake.body))
+            snake.draw();
+
+            // check for collision with self
+            if (check_collision({ body : snake.body.slice(1) }, { body : [snake.body[0]] })) {
+            //if (snake.body.indexOf(tail) != snake.body.lastIndexOf(tail)) {
+                //console.log(&#x27;Touched self!&#x27;);
+                game_over();
+            }
+
+            // check for collision with wall
+            if (check_collision(snake, wall)) {
+                game_over();
+            }
+        }
+    };
+
+    var levelgrid = {
+        0 : function() {
+            return [];
+        },
+        1 : function() {
+            var list = [];
+            for (var i=0; i">
+    
+    <meta name="keywords" content="">
+    <meta property="profile:first_name" content="Bhashkar" />
+<meta property="profile:last_name" content="Sharma" />
+<meta property="og:title" content="Snake | Bhashkar Sharma" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:8000/lab/snake/" />
+<meta property="og:image" content="http://localhost:8000/images/profile_new2.jpg" />
+    <link rel="alternate" href="http://localhost:8000/feed.xml" type="application/rss+xml" title="Bhashkar Sharma">
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="/js/jquery.min.js"></script>
+    <!-- 
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/jquery.scrollzer.min.js"></script>
+    -->
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-layers.min.js"></script>
+    <script src="/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-wide.css" />
+    </noscript>
+    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+</head>
+    <body>
+
+        <!-- Header -->
+            <div id="header" class="skel-layers-fixed">
+
+                <div class="top">
+
+                    <!-- Logo -->
+                        <div id="logo">
+                            <span class="image avatar48">
+                              <img src="/images/profile_new.jpg" alt="Profile" />
+                            </span>
+                            <h1 id="title">Bhashkar Sharma</h1>
+                            <p></p>
+                        </div>
+
+                    <!-- Nav -->
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="/#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                                <li><a href="/#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+                                <li><a href="/#lab" id="lab-link" class="skel-layers-ignoreHref"><span class="icon fa-rocket">Lab</span></a></li>
+                                <li><a href="/#posts" id="posts-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Posts</span></a></li>
+                            </ul>
+                        </nav>
+                        
+                </div>
+                
+                <div class="bottom">
+
+                    <!-- Social Icons -->
+                        <ul class="icons">
+                            <li><a href="https://twitter.com/bhashkarsharma" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="https://linkedin.com/in/bhashkarsharma" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="http://github.com/bhashkarsharma" class="icon fa-github"><span class="label">Github</span></a></li>
+                            <li><a href="mailto:info@bhashkar.me" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                
+                </div>
+            
+            </div>
+
+        <!-- Main -->
+            <div id="main">
+
+                
+
+<!-- page -->
+<section id="post">
+    <article class="container box style3">
+        <header>
+            <h2><a href="/lab/snake/">Snake</a></h2>
+        </header>
+        <section>
+            <style>
+#post section {
+    text-align: center;
+} #page .box.style3 {
+    text-align: center;
+} #game {
+    border: 10px solid;
+    border-radius: 10px;
+}
+</style>
+
+<p>I created this when I was getting bored waiting for something. I was missing the old-school brick game, and figured I’d try replicating the&nbsp;experience.</p>
+<p><canvas id="game" width="500" height="500"></canvas></p>
+<p><div>Score: <span id="score"></div></p>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript">
+brick = function(selector) {
+    var el = $(selector);
+    var w = el.width();
+    var h = el.height();
+    var ctx = el[0].getContext('2d');
+    var colors = {
+        'bg' : '#acc4ac',
+        'fg' : '#444'
+    };
+    // cell size
+    var cs = 10;
+    //draw a box with brick co-ordinates x, y and size cs
+    var draw_brick = function(x, y, color, border) {
+        if (color == undefined) color = colors.fg;
+        if (border == undefined) border = colors.bg;
+        ctx.fillStyle = color;
+        ctx.strokeStyle = border;
+        ctx.moveTo(x * cs, y * cs);
+        ctx.lineTo((x + 1) * cs, y * cs);
+        ctx.lineTo(x * cs, (y + 1 ) * cs);
+        ctx.closePath();
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc((x * cs) + cs/2, (y * cs) + cs/2, Math.round(cs/2 - 2), Math.PI * 3/4, Math.PI * 7/4, false);
+        ctx.fillStyle = border;
+        ctx.fill();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.arc((x * cs) + cs/2, (y * cs) + cs/2, Math.round(cs/2 - 2), Math.PI * 7/4, Math.PI * 3/4, false);
+        ctx.fillStyle = color;
+        ctx.fill();
+        ctx.closePath();
+        ctx.strokeWidth = 1;
+        ctx.strokeStyle = color;
+        ctx.strokeRect(x * cs, y * cs, cs, cs);
+    }
+    // clear screen
+    var cls = function() {
+        ctx.fillStyle = colors.bg;
+        ctx.fillRect(0, 0, w, h);
+        ctx.strokeStyle = "black";
+        ctx.strokeRect(0, 0, w, h);
+    }
+    return {
+        'cls' : cls,
+        'draw_brick' : draw_brick,
+        'w' : Math.floor(w/cs),
+        'h' : Math.floor(h/cs)
+    }
+}
+
+$(document).ready(function() {
+    // initial direction
+    var d = 'right';
+    // number of ms before the snake moves again
+    var speed = 100;
+    //level
+    var level = 0;
+    // score
+    var score = 0;
+    var interval;
+    var game = brick('#game');
+    // the snake object
+    var snake = {
+        length : 5,
+        body : [],
+        init : function() {
+            snake.length = 5;
+            snake.body = [];
+            for (var i=snake.length; i>0; i--) {
+                //console.log(i)
+                snake.body.push({ x : i, y : 20 });
+                //console.log(JSON.stringify(snake.body), snake.body.length)
+            }
+            //console.log(JSON.stringify(snake.body))
+        },
+        draw : function() {
+            game.cls();
+            for (var i in snake.body) {
+                game.draw_brick(snake.body[i].x, snake.body[i].y);
+            }
+        },
+        move : function() {
+            var head = snake.body[0];
+            var dx = head.x;
+            var dy = head.y;
+            if (d == "left") {
+                if (dx > 0) {
+                    dx--;
+                } else {
+                    dx = game.w;
+                }
+            } else if (d == "right") {
+                if (dx < game.w) {
+                    dx++;
+                } else {
+                    dx = 0;
+                } 
+            }
+            else if (d == "up") {
+                if (dy > 0) {
+                    dy--;
+                } else {
+                    dy = game.h;
+                } 
+            }
+            else if (d == "down") {
+                if (dy <= (game.h)) {
+                    dy++;
+                } else {
+                    dy = 0;
+                } 
+            }
+
+            // check for collision
+            if (check_collision(snake, food)) {
+                snake.length++;
+                snake.body.unshift(food.body[0]);
+                snake.draw();
+                food.init();
+                food.draw();
+                score = score + 10;
+                if (score > 0 && score % 100 == 0) {
+                    console.log('score ', score)
+                    level++;
+                    console.log(level)
+                    wall.init();
+                }
+            }
+
+            var tail = snake.body.pop();
+            tail.x = dx;
+            tail.y = dy;
+            snake.body.unshift(tail);
+            //console.log(<span class="caps">JSON</span>.stringify(snake.body))
+            snake.draw();
+
+            // check for collision with self
+            if (check_collision({ body : snake.body.slice(1) }, { body : [snake.body[0]] })) {
+            //if (snake.body.indexOf(tail) != snake.body.lastIndexOf(tail)) {
+                //console.log('Touched self!');
+                game_over();
+            }
+
+            // check for collision with wall
+            if (check_collision(snake, wall)) {
+                game_over();
+            }
+        }
+    };
+
+    var levelgrid = {
+        0 : function() {
+            return [];
+        },
+        1 : function() {
+            var list = [];
+            for (var i=0; i<game.w; i++) {
+                list.push({
+                    x : i,
+                    y : 0
+                });
+                list.push({
+                    x : i,
+                    y : game.h - 1
+                });
+            }
+            for (var j=0; j<game.h; j++) {
+                list.push({
+                    x : 0,
+                    y : j
+                });
+                list.push({
+                    x : game.w - 1,
+                    y : j
+                });
+            }
+            return list;
+        }
+    };
+
+    var wall = {
+        body: [],
+        init : function() {
+            wall.body = levelgrid[Math.floor(level/2)]();
+            console.log(wall.body)
+        },
+        draw : function() {
+            for (var i in wall.body) {
+                console.log(wall.body[i].x, wall.body[i].y);
+                game.draw_brick(wall.body[i].x, wall.body[i].y);
+            }
+        }
+    };
+
+    var food = {
+        body : [],
+        length : 1,
+        init : function() {
+            do {
+                food.body = [];
+                for (var i=0; i < food.length; i++) {
+                    food.body.push({
+                        x : Math.round(Math.random() * game.w),
+                        y : Math.round(Math.random() * game.h)
+                    });
+                }
+            } while (check_collision(snake, food) || check_collision(wall, food))
+        },
+        draw : function() {
+            for (var i in food.body) {
+                game.draw_brick(food.body[i].x, food.body[i].y);
+            }
+        }
+    };
+
+    var check_collision = function(obj1, obj2) {
+        if ((obj1.body) && (obj2.body)) {
+            for (var i in obj1.body) {
+                for (var j in obj2.body) {
+                    if ((obj1.body[i].x == obj2.body[j].x) && (obj1.body[i].y == obj2.body[j].y)) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        } else {
+            return null;
+        }
+    }
+
+    //keyboard controls
+    $(document).keydown(function(e) {
+        var key = e.which;
+        //clause to prevent reverse gear
+        if(key == "37" && d != "right") d = "left";
+        else if(key == "38" && d != "down") d = "up";
+        else if(key == "39" && d != "left") d = "right";
+        else if(key == "40" && d != "up") d = "down";
+        // prevent scrolling
+        if (key == "40" || key == "38") e.preventDefault();
+    });
+
+    var start_game = function() {
+        game.cls();
+        d = 'right';
+        wall.init();
+        wall.draw();
+        snake.init();
+        snake.draw();
+        food.init();
+        food.draw();
+        interval = setInterval(function() {
+            snake.move(); 
+            wall.draw(); 
+            food.draw(); 
+            $('#score').html(score); 
+        }, speed);
+    }
+    start_game();
+
+    var game_over = function() {
+        if (typeof(interval) != "undefined") {
+            clearInterval(interval);
+        }
+        if (confirm('Your score: ' + score + '. Start new game?')) {
+            start_game();
+        }
+    }
+});
+</script>
+        </section>
+
+        <div class="sharer">
+    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/lab/snake/" class="facebook-share"><i class="fa fa-facebook-square"></i></a>
+    <a target="_blank" href="https://twitter.com/home?status=http://localhost:8000/lab/snake/" class="twitter-share"><i class="fa fa-twitter-square"></i></a>
+</div>
+
+    </article>
+
+</section>
+
+            
+            </div>
+
+        <!-- Footer -->
+            <div id="footer">
+                
+                <!-- Copyright -->
+                    <ul class="copyright">
+                        <li>&copy; Bhashkar Sharma. All rights reserved.</li>
+                        <li>Theme by <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>Generated using <a href="http://wintersmith.io">Wintersmith</a></li>
+                    </ul>
+                
+            </div>
+
+    </body>
+</html>

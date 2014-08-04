@@ -1,0 +1,387 @@
+<!--
+                                                          _ 
+|  ||_  _ |_   _  _ _     _      | _  _ | . _  _    _ |_   )
+|/\|| )(_||_  (_|| (-  \/(_)|_|  |(_)(_)|(|| )(_)  (_||_  . 
+                       /                      _/            
+                              
+|__| _    _   _   | .|_|_     
+|  |(_|\/(-  (_|  |(||_|_\/.  
+                         /    
+    
+                   .               ,.
+                  T."-._..---.._,-"/|
+                  l|"-.  _.v._   (" |
+                  [l /.'_ \; _~"-.`-t
+                  Y " _(o} _{o)._ ^.|
+                  j  T  ,-<v>-.  T  ]
+                  \  l ( /-^-\ ) !  !
+                   \. \.  "~"  ./  /c-..,__
+                     ^r- .._ .- .-"  `- .  ~"--.
+                      > \.                      \
+                      ]   ^.                     \
+                      3  .  ">            .       Y  
+         ,.__.--._   _j   \ ~   .         ;       |
+        (    ~"-._~"^._\   ^.    ^._      I     . l
+         "-._ ___ ~"-,_7    .Z-._   7"   Y      ;  \       
+            /"   "~-(r r  _/_--._~-/    /      /,.--^-._   
+            "-._    '"~~~>-._~]>--^---./____,.^~        ^.
+                ~--._    '   Y---.                        \
+                     ~~--._  l_   )                        \
+                           ~-._~~~---._,____..---           \
+                               ~----"~       \
+                                              \
+-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>Gravity Demo | Bhashkar Sharma</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
+    <meta name="description" content="
+post section {
+text-align: center;
+} #post .box.style3 {
+    text-align: center;
+} .kineticjs-content {
+    border: 1px solid;
+    display: inline-block;
+    background: white;
+}
+
+Trying to implement basic gravity demo in canvas.
+
+
+
+
+var round = function(num, digits) {
+    return +(Math.round(num + &quot;e+&quot; + digits)  + &quot;e-&quot; + digits);
+}
+window.onload = function() {
+    var sin = 0, cos = 1;
+    var w = Math.min(500, (window.innerWidth - 2 * document.getElementById(&#x27;can&#x27;).offsetLeft));
+    var h = Math.min(500, window.innerHeight);
+    window.addEventListener(&quot;deviceorientation&quot;, function(e) {
+        var angle = round(e.gamma * Math.PI/180, 3);
+        sin = round(Math.sin(angle), 2);
+        cos = round(Math.cos(angle), 2);
+    });
+    var stage = new Kinetic.Stage({
+        container : &#x27;can&#x27;,
+        width : w,
+        height : h
+    });
+    var layer = new Kinetic.Layer();
+    var ball = new Kinetic.Circle({
+        x: w/2,
+        y: h/2,
+        radius: 10,
+        fill: &#x27;rgba(33, 33, 33, 0.9)&#x27;,
+        stroke: &#x27;white&#x27;,
+        strokeWidth: 1
+    });
+    ball.setAttrs({
+        &#x27;elasticity&#x27;: 0.96
+    });
+    layer.add(ball);
+
+    layer.draw();    
+    stage.add(layer);
+    var count = 0;
+
+    var log = function(a, u, v, t, s) {
+        if (count  stage.getWidth()) || 
+            (ball.getY() - ball.getRadius()  stage.getHeight())) {
+            //log(&#x27;hit&#x27;); return true;
+        } else return false;
+    }
+
+    var anim = new Kinetic.Animation(function(frame) {
+        a = {
+            x : round(g * sin, 2),
+            y : round(g * cos, 2)
+        }
+        var t = frame.timeDiff/100;
+        u = v;
+        v = {
+            x : u.x + a.x * t,
+            y : u.y + a.y * t
+        }
+        if (ball.getX() - ball.getRadius()  stage.getWidth()) {
+            v.x = - Math.abs(v.x * ball.getAttr(&#x27;elasticity&#x27;));
+            //log(a, u, v, t, s);
+        }
+        if (ball.getY() - ball.getRadius()  stage.getHeight()) {
+            v.y = - Math.abs(v.y * ball.getAttr(&#x27;elasticity&#x27;));
+            //log(a, u, v, t, s);
+        }
+        v = {
+            x : round(v.x, 2),
+            y : round(v.y, 2)
+        }
+        s = {
+            x : Math.min(ball.getX() + u.x * t + 0.5 * a.x * t * t, stage.getWidth()),
+            y : Math.min(ball.getY() + u.y * t + 0.5 * a.y * t * t, stage.getHeight())
+        }
+        //log(&#x27;befor &#x27;, s, v, u.x * t + 0.5 * a.x * t * t, u.y * t + 0.5 * a.y * t * t);
+        // limit the ball within the stage
+        // if (s.x  stage.getWidth() - ball.getRadius()) s.x = stage.getWidth() - ball.getRadius();
+        // if (s.y &gt; stage.getHeight() - ball.getRadius()) s.y = stage.getHeight() - ball.getRadius();
+
+        //log(&#x27;after &#x27;, s, v);
+        ifBounce();
+        ball.setX(round(s.x, 2));
+        ball.setY(round(s.y, 2));
+
+        // if (frame.time % 5 == 0) console.log(a, u, v, t, s);
+
+        // ball.setX(Math.min(round(s.x, 2), stage.getWidth() - ball.getRadius()));
+        // ball.setY(Math.min(round(s.y, 2), stage.getHeight() - ball.getRadius()));
+        //console.log(ball.getRadius(), ball.getX(), ball.getY())
+    }, layer);
+
+    anim.start();
+}
+
+
+This demo will only work on devices that allow Javascript to access the device orientation APIs (MacBook and iOS/Android devices)
+">
+    
+    <meta name="keywords" content="">
+    <meta property="profile:first_name" content="Bhashkar" />
+<meta property="profile:last_name" content="Sharma" />
+<meta property="og:title" content="Gravity Demo | Bhashkar Sharma" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:8000/lab/gravity/" />
+<meta property="og:image" content="http://localhost:8000/images/profile_new2.jpg" />
+    <link rel="alternate" href="http://localhost:8000/feed.xml" type="application/rss+xml" title="Bhashkar Sharma">
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="/js/jquery.min.js"></script>
+    <!-- 
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/jquery.scrollzer.min.js"></script>
+    -->
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-layers.min.js"></script>
+    <script src="/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-wide.css" />
+    </noscript>
+    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+</head>
+    <body>
+
+        <!-- Header -->
+            <div id="header" class="skel-layers-fixed">
+
+                <div class="top">
+
+                    <!-- Logo -->
+                        <div id="logo">
+                            <span class="image avatar48">
+                              <img src="/images/profile_new.jpg" alt="Profile" />
+                            </span>
+                            <h1 id="title">Bhashkar Sharma</h1>
+                            <p></p>
+                        </div>
+
+                    <!-- Nav -->
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="/#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                                <li><a href="/#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+                                <li><a href="/#lab" id="lab-link" class="skel-layers-ignoreHref"><span class="icon fa-rocket">Lab</span></a></li>
+                                <li><a href="/#posts" id="posts-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Posts</span></a></li>
+                            </ul>
+                        </nav>
+                        
+                </div>
+                
+                <div class="bottom">
+
+                    <!-- Social Icons -->
+                        <ul class="icons">
+                            <li><a href="https://twitter.com/bhashkarsharma" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="https://linkedin.com/in/bhashkarsharma" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="http://github.com/bhashkarsharma" class="icon fa-github"><span class="label">Github</span></a></li>
+                            <li><a href="mailto:info@bhashkar.me" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                
+                </div>
+            
+            </div>
+
+        <!-- Main -->
+            <div id="main">
+
+                
+
+<!-- page -->
+<section id="post">
+    <article class="container box style3">
+        <header>
+            <h2><a href="/lab/gravity/">Gravity Demo</a></h2>
+        </header>
+        <section>
+            <p><style></p>
+<h1 id="post-section-">post section&nbsp;{</h1>
+<pre><code>text-align: center;
+</code></pre><p>} #post .box.style3 {
+    text-align: center;
+} .kineticjs-content {
+    border: 1px solid;
+    display: inline-block;
+    background: white;
+}
+</style>
+Trying to implement basic gravity demo in&nbsp;canvas.</p>
+<p><div id="can"></div></p>
+<p><div id="stat"></div></p>
+<script src="https://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.1.min.js"></script>
+<script type="text/javascript">
+var round = function(num, digits) {
+    return +(Math.round(num + "e+" + digits)  + "e-" + digits);
+}
+window.onload = function() {
+    var sin = 0, cos = 1;
+    var w = Math.min(500, (window.innerWidth - 2 * document.getElementById('can').offsetLeft));
+    var h = Math.min(500, window.innerHeight);
+    window.addEventListener("deviceorientation", function(e) {
+        var angle = round(e.gamma * Math.PI/180, 3);
+        sin = round(Math.sin(angle), 2);
+        cos = round(Math.cos(angle), 2);
+    });
+    var stage = new Kinetic.Stage({
+        container : 'can',
+        width : w,
+        height : h
+    });
+    var layer = new Kinetic.Layer();
+    var ball = new Kinetic.Circle({
+        x: w/2,
+        y: h/2,
+        radius: 10,
+        fill: 'rgba(33, 33, 33, 0.9)',
+        stroke: 'white',
+        strokeWidth: 1
+    });
+    ball.setAttrs({
+        'elasticity': 0.96
+    });
+    layer.add(ball);
+
+    layer.draw();    
+    stage.add(layer);
+    var count = 0;
+
+    var log = function(a, u, v, t, s) {
+        if (count < 500) console.log(a, u, v, t, s);
+        //document.getElementById('stat').innerHTML = [JSON.stringify(a), JSON.stringify(u), JSON.stringify(v), t, s] + "\n"
+        count++;
+    }
+
+
+    var u = { x : 0, y : 0 }, g = 9.8, a = { x : 0, y : g };
+    var v = u, s = u;
+
+    var ifBounce = function() {
+        if ((ball.getX() - ball.getRadius() < 0) || 
+            (ball.getX() + ball.getRadius() > stage.getWidth()) || 
+            (ball.getY() - ball.getRadius() < 0) || 
+            (ball.getY() + ball.getRadius() > stage.getHeight())) {
+            //log('hit'); return true;
+        } else return false;
+    }
+
+    var anim = new Kinetic.Animation(function(frame) {
+        a = {
+            x : round(g * sin, 2),
+            y : round(g * cos, 2)
+        }
+        var t = frame.timeDiff/100;
+        u = v;
+        v = {
+            x : u.x + a.x * t,
+            y : u.y + a.y * t
+        }
+        if (ball.getX() - ball.getRadius() < 0) {
+            v.x = Math.abs(v.x * ball.getAttr('elasticity'));
+            //log(a, u, v, t, s);
+        }
+        if (ball.getX() + ball.getRadius() > stage.getWidth()) {
+            v.x = - Math.abs(v.x * ball.getAttr('elasticity'));
+            //log(a, u, v, t, s);
+        }
+        if (ball.getY() - ball.getRadius() < 0) {
+            v.y = Math.abs(v.y * ball.getAttr('elasticity'));
+            //log(a, u, v, t, s);
+        }
+        if (ball.getY() + ball.getRadius() > stage.getHeight()) {
+            v.y = - Math.abs(v.y * ball.getAttr('elasticity'));
+            //log(a, u, v, t, s);
+        }
+        v = {
+            x : round(v.x, 2),
+            y : round(v.y, 2)
+        }
+        s = {
+            x : Math.min(ball.getX() + u.x * t + 0.5 * a.x * t * t, stage.getWidth()),
+            y : Math.min(ball.getY() + u.y * t + 0.5 * a.y * t * t, stage.getHeight())
+        }
+        //log('befor ', s, v, u.x * t + 0.5 * a.x * t * t, u.y * t + 0.5 * a.y * t * t);
+        // limit the ball within the stage
+        // if (s.x < 0 + ball.getRadius()) s.x = 0 + ball.getRadius();
+        // if (s.y < 0 + ball.getRadius()) s.y = 0 + ball.getRadius();
+        // if (s.x > stage.getWidth() - ball.getRadius()) s.x = stage.getWidth() - ball.getRadius();
+        // if (s.y > stage.getHeight() - ball.getRadius()) s.y = stage.getHeight() - ball.getRadius();
+
+        //log('after ', s, v);
+        ifBounce();
+        ball.setX(round(s.x, 2));
+        ball.setY(round(s.y, 2));
+
+        // if (frame.time % 5 == 0) console.log(a, u, v, t, s);
+
+        // ball.setX(Math.min(round(s.x, 2), stage.getWidth() - ball.getRadius()));
+        // ball.setY(Math.min(round(s.y, 2), stage.getHeight() - ball.getRadius()));
+        //console.log(ball.getRadius(), ball.getX(), ball.getY())
+    }, layer);
+
+    anim.start();
+}
+</script>
+
+<p>This demo will only work on devices that allow Javascript to access the device orientation APIs (MacBook and iOS/Android&nbsp;devices)</p>
+
+        </section>
+
+        <div class="sharer">
+    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/lab/gravity/" class="facebook-share"><i class="fa fa-facebook-square"></i></a>
+    <a target="_blank" href="https://twitter.com/home?status=http://localhost:8000/lab/gravity/" class="twitter-share"><i class="fa fa-twitter-square"></i></a>
+</div>
+
+    </article>
+
+</section>
+
+            
+            </div>
+
+        <!-- Footer -->
+            <div id="footer">
+                
+                <!-- Copyright -->
+                    <ul class="copyright">
+                        <li>&copy; Bhashkar Sharma. All rights reserved.</li>
+                        <li>Theme by <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>Generated using <a href="http://wintersmith.io">Wintersmith</a></li>
+                    </ul>
+                
+            </div>
+
+    </body>
+</html>
