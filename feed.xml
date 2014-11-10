@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bhashkar Sharma</title>
-    <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <link>http://localhost:8000</link>
+    <atom:link href="http://bhashkar.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://bhashkar.me</link>
     <description>Dreamer. Wonderer.</description>
     <pubDate>Sun, 09 Nov 2014 11:00:00 +0630</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>Wish</title>
-      <link>http://localhost:8000/2014/11/09/wish/</link>
+      <link>http://bhashkar.me/2014/11/09/wish/</link>
       <pubDate>Sun, 09 Nov 2014 11:00:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/11/09/wish/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/11/09/wish/</guid>
       <author></author>
       <description>&lt;p&gt;As long as Lisa can remember, they have had Bruno in their house.&lt;span class=&quot;more&quot;/&gt; Bruno is the German Shepherd that her parents brought home as a pup when she was 2. They practically grew up together, and became best buddies. They used to play, run, go for walks together. She would take care of feeding him. Sometimes they’d sit and eat next to each other.&lt;/p&gt;
 &lt;p&gt;Lisa was now 9. She could swear that Bruno understood all of her commands. “Fetch”, “roll” and “play dead” didn’t even scratch the surface. He’d know when to go for a walk, and come running when called for dinner. Lisa wished there was a way she could understand what he had to say.&lt;/p&gt;
@@ -23,9 +23,9 @@
     </item>
     <item>
       <title>At The Airport</title>
-      <link>http://localhost:8000/2014/11/04/at-the-airport/</link>
+      <link>http://bhashkar.me/2014/11/04/at-the-airport/</link>
       <pubDate>Tue, 04 Nov 2014 15:10:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/11/04/at-the-airport/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/11/04/at-the-airport/</guid>
       <author></author>
       <description>&lt;p&gt;In the midst of the hustle of the busy airport, he noticed how lonely he was.&lt;span class=&quot;more&quot;/&gt; The human brain is a wonderful thing. Even having people all around us can make us feel lonelier than when we are in true solitude on top of a mountain. People walking around with their trolleys, kids munching on to fast food and sipping cola from paper mugs, the shops all lit up, inviting people to come in and buy things they probably don’t need very much. The old people in the wheelchairs being dragged around by relatives or servants. Curious kids running around the lounge.
 The airline staff talking around with their luggage. Just another workday for them, an emotional moment of separation for many. Many hopeful faces talking around, probably looking forward to their stint ahead in life, looking to get indulged in what lies ahead.&lt;/p&gt;
@@ -34,9 +34,9 @@ The airline staff talking around with their luggage. Just another workday for th
     </item>
     <item>
       <title>The Game Is On</title>
-      <link>http://localhost:8000/2014/07/05/the-game-is-on/</link>
+      <link>http://bhashkar.me/2014/07/05/the-game-is-on/</link>
       <pubDate>Sat, 05 Jul 2014 21:40:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/07/05/the-game-is-on/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/07/05/the-game-is-on/</guid>
       <author></author>
       <description>&lt;p&gt;This one took a lot more time and effort than the previous one: &lt;span class=&quot;more&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://static.bhashkar.me/images/IMG_20140705_203640.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -45,9 +45,9 @@ The airline staff talking around with their luggage. Just another workday for th
     </item>
     <item>
       <title>Iron Man</title>
-      <link>http://localhost:8000/2014/06/30/iron-man/</link>
+      <link>http://bhashkar.me/2014/06/30/iron-man/</link>
       <pubDate>Mon, 30 Jun 2014 09:10:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/06/30/iron-man/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/06/30/iron-man/</guid>
       <author></author>
       <description>&lt;p&gt;Picked up the brush after 4 years, and painted this: &lt;span class=&quot;more&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://static.bhashkar.me/images/IMG_20140629_213859.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -56,9 +56,9 @@ The airline staff talking around with their luggage. Just another workday for th
     </item>
     <item>
       <title>Attachment</title>
-      <link>http://localhost:8000/2014/06/09/attachment/</link>
+      <link>http://bhashkar.me/2014/06/09/attachment/</link>
       <pubDate>Mon, 09 Jun 2014 21:10:40 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/06/09/attachment/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/06/09/attachment/</guid>
       <author></author>
       <description>&lt;p&gt;Someone said some rude things to me, which made me unhappy.&lt;/p&gt;
 &lt;p&gt;Today it hit me that I wasn’t unhappy because what the words were; they were not true to begin with and I always knew that. I was unhappy because I did not expect that person to say those things to me.&lt;span class=&quot;more&quot;/&gt;&lt;/p&gt;
@@ -69,9 +69,9 @@ The airline staff talking around with their luggage. Just another workday for th
     </item>
     <item>
       <title>Tagged</title>
-      <link>http://localhost:8000/2014/05/25/tagged/</link>
+      <link>http://bhashkar.me/2014/05/25/tagged/</link>
       <pubDate>Sun, 25 May 2014 19:10:40 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/05/25/tagged/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/05/25/tagged/</guid>
       <author></author>
       <description>&lt;p&gt;The elections for the Indian Parliament have finished; and people are on their way to pick up another label they identify themselves with.&lt;span class=&quot;more&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;In a world run by corporations and branding, it is not surprising that everything has become a label.&lt;/p&gt;
@@ -84,9 +84,9 @@ The airline staff talking around with their luggage. Just another workday for th
     </item>
     <item>
       <title>Perversion</title>
-      <link>http://localhost:8000/2014/05/13/perversion/</link>
+      <link>http://bhashkar.me/2014/05/13/perversion/</link>
       <pubDate>Tue, 13 May 2014 09:10:40 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/05/13/perversion/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/05/13/perversion/</guid>
       <author></author>
       <description>&lt;p&gt;I came across this beautiful video recently:&lt;span class=&quot;more&quot;/&gt;&lt;/p&gt;
 &lt;div class=&quot;video-box&quot;&gt;
@@ -127,9 +127,9 @@ noun
     </item>
     <item>
       <title>Going Static</title>
-      <link>http://localhost:8000/2014/04/10/going-static/</link>
+      <link>http://bhashkar.me/2014/04/10/going-static/</link>
       <pubDate>Thu, 10 Apr 2014 12:30:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/04/10/going-static/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/04/10/going-static/</guid>
       <author></author>
       <description>&lt;p&gt;After running the site on an EC2 machine for the last ~ 2 years, while simulaneously writing on various blogs (mostly because I was afraid of losing data); I’ve finally decided to go static.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I figured I wasn’t making use of the benefits of having a Linux box at my disposal; and what I was running could easily be run on a static host.&lt;/p&gt;
@@ -141,9 +141,9 @@ noun
     </item>
     <item>
       <title>Canvas width and height</title>
-      <link>http://localhost:8000/2014/03/06/canvas-width-and-height/</link>
+      <link>http://bhashkar.me/2014/03/06/canvas-width-and-height/</link>
       <pubDate>Thu, 06 Mar 2014 15:30:57 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/03/06/canvas-width-and-height/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/03/06/canvas-width-and-height/</guid>
       <author></author>
       <description>&lt;p&gt;When using canvas, remember to add width and height attributes to the markup&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;canvas&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;200&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;300&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;canvas&lt;/span&gt;&amp;gt;&lt;/span&gt;
@@ -153,9 +153,9 @@ noun
     </item>
     <item>
       <title>Stunning Fail</title>
-      <link>http://localhost:8000/2014/03/01/stunning-fail/</link>
+      <link>http://bhashkar.me/2014/03/01/stunning-fail/</link>
       <pubDate>Sat, 01 Mar 2014 12:27:43 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/03/01/stunning-fail/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/03/01/stunning-fail/</guid>
       <author></author>
       <description>&lt;p&gt;On reading &lt;a href=&quot;http://www.bloombergview.com/articles/2014-02-28/tesla-is-a-car-not-a-revolution&quot;&gt;this article&lt;/a&gt;, many things come to mind; and not just how it screams “sensationalism” and “nay-sayer” out loud.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://www.bloomberg.com/image/iUVPBRrLZNPg.jpg&quot; alt=&quot;Stunning, indeed!&quot;&gt;&lt;/p&gt;
@@ -172,9 +172,9 @@ noun
     </item>
     <item>
       <title>Facebook buys Whatsapp</title>
-      <link>http://localhost:8000/2014/02/20/facebook-buys-whatsapp/</link>
+      <link>http://bhashkar.me/2014/02/20/facebook-buys-whatsapp/</link>
       <pubDate>Thu, 20 Feb 2014 14:43:29 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/02/20/facebook-buys-whatsapp/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/02/20/facebook-buys-whatsapp/</guid>
       <author></author>
       <description>&lt;p&gt;$19 billion. This is the amount of money Facebook is paying (stocks + cash + RSUs) to acquire WhatsApp. I’ve not been able to process it yet. Don’t get me wrong. I’m not questioning the worth of WhatsApp.&lt;span class=&quot;more&quot; /&gt;It is a great messaging app which provides a simple, no-frills and reliable way of communicating with people, sharing images, videos, music etc. I have tried using a couple of other messaging apps and every time came back to WhatsApp. That is how good it is. And ~500 million customers without any marketing is a huge deal that speaks volumes for the product.&lt;/p&gt;
 &lt;p&gt;But something does not add up. Or maybe I’m too naive to understand it yet. WhatsApp supposedly deletes messages from their servers once they gets delivered. And they want nothing to do with advertising. Two things that Facebook is big on: data and advertising. Which leaves people’s contact list, which Facebook already has, in most cases by virtue of being installed on almost every Android/iOS phone out there. &lt;/p&gt;
@@ -185,9 +185,9 @@ noun
     </item>
     <item>
       <title>Amusing ourselves to death</title>
-      <link>http://localhost:8000/2014/01/08/amusing-ourselves-to-death/</link>
+      <link>http://bhashkar.me/2014/01/08/amusing-ourselves-to-death/</link>
       <pubDate>Wed, 08 Jan 2014 15:26:14 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2014/01/08/amusing-ourselves-to-death/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2014/01/08/amusing-ourselves-to-death/</guid>
       <author></author>
       <description>&lt;p&gt;Two prophecies. Neither came true; or both did.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://onthepathofknowledge.wordpress.com/2014/01/03/amusing-ourselves-to-death/&quot;&gt;Read original post&lt;/a&gt;&lt;/p&gt;
@@ -195,9 +195,9 @@ noun
     </item>
     <item>
       <title>Enough Arrangements!</title>
-      <link>http://localhost:8000/2013/11/24/enough-arrangements/</link>
+      <link>http://bhashkar.me/2013/11/24/enough-arrangements/</link>
       <pubDate>Sun, 24 Nov 2013 08:13:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/11/24/enough-arrangements/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/11/24/enough-arrangements/</guid>
       <author></author>
       <description>&lt;p&gt;I’m sick and tired of arranged marriages and the slew of shit they bring. Evils ranging from dowry to casteism to superstition like astrology are all prevalent in today’s India in a big way, thanks to this epidemic.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I personally know people who took decisions to please their parents or society and gave up on their love. I know people whose relationships didn’t culminate into marriage because of this sickness. I know people who lost touch with their families just because the person they married wasn’t right for them according to the thousand year old moronity doctrine.&lt;/p&gt;
@@ -211,9 +211,9 @@ noun
     </item>
     <item>
       <title>Just Because</title>
-      <link>http://localhost:8000/2013/11/23/just-because/</link>
+      <link>http://bhashkar.me/2013/11/23/just-because/</link>
       <pubDate>Sat, 23 Nov 2013 22:07:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/11/23/just-because/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/11/23/just-because/</guid>
       <author></author>
       <description>&lt;p&gt;I refuse to give up. I refuse to let the world turn me into a cynic. I refuse to stoop to the level of the people who see fellow humans as things to be used and discarded.&lt;/p&gt;
 &lt;p&gt;Since always I have had faith in humanity; a quality which is hard to describe, but I will try. It is about caring, sharing and nurturing the people around you.&lt;span class=&quot;more&quot; /&gt; It is about giving without thinking what you are getting in return. It is about being open to new ideas and experiences. It is about that feeling in your heart that might ‘restore your faith in humanity’. It is about the warmth that somebody makes you feel just by being there. It is about letting yourself be swept off your feet even though logic might suggest otherwise.&lt;/p&gt;
@@ -234,9 +234,9 @@ noun
     </item>
     <item>
       <title>Small Joys</title>
-      <link>http://localhost:8000/2013/10/11/small-joys/</link>
+      <link>http://bhashkar.me/2013/10/11/small-joys/</link>
       <pubDate>Fri, 11 Oct 2013 19:30:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/10/11/small-joys/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/10/11/small-joys/</guid>
       <author></author>
       <description>&lt;p&gt;Most of us are living life in the fast lane. A life which is more of a race than a journey. We are competing with each other to get ahead and reach somewhere. But where?&lt;/p&gt;
 &lt;p&gt;Take a moment and think of all that we have missed out on because of being in the race mindset.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
@@ -256,9 +256,9 @@ noun
     </item>
     <item>
       <title>Terminating the experiment</title>
-      <link>http://localhost:8000/2013/09/29/terminating-the-experiment/</link>
+      <link>http://bhashkar.me/2013/09/29/terminating-the-experiment/</link>
       <pubDate>Sun, 29 Sep 2013 06:30:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/09/29/terminating-the-experiment/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/09/29/terminating-the-experiment/</guid>
       <author></author>
       <description>&lt;p&gt;A few days ago, I started this experiment. The goal was to write a post everyday. I have to say I have failed miserably at keeping that goal up. I have barely been able to write 6 posts. But then, I guess it is not easy writing everyday especially when you have other things on hand.&lt;/p&gt;
 &lt;p&gt;I will change this goal to be once a week (will aim for more frequently than that). A week is a reasonable amount of time to come up and compose a good write-up.&lt;/p&gt;
@@ -267,9 +267,9 @@ noun
     </item>
     <item>
       <title>Doing What We Dream Of</title>
-      <link>http://localhost:8000/2013/09/27/doing-what-we-dream-of/</link>
+      <link>http://bhashkar.me/2013/09/27/doing-what-we-dream-of/</link>
       <pubDate>Fri, 27 Sep 2013 03:00:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/09/27/doing-what-we-dream-of/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/09/27/doing-what-we-dream-of/</guid>
       <author></author>
       <description>&lt;p&gt;As kids, we all dream of being someone when we grow up. It might be hard to believe, and maybe it was because of all the books I had around me when I was growing up; I wanted to write. That’s it. Spend time with books, read and write.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The next thing I wanted to be, was a superhero. I guess that is a phase in every boy’s life when growing up. Superheroes are awesome. They’re perfect, powerful and can do whatever they want.&lt;/p&gt;
@@ -284,9 +284,9 @@ noun
     </item>
     <item>
       <title>Food, Sleep and Exercise</title>
-      <link>http://localhost:8000/2013/09/24/food-sleep-and-exercise/</link>
+      <link>http://bhashkar.me/2013/09/24/food-sleep-and-exercise/</link>
       <pubDate>Tue, 24 Sep 2013 14:30:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/09/24/food-sleep-and-exercise/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/09/24/food-sleep-and-exercise/</guid>
       <author></author>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Health is wealth.&lt;/p&gt;
@@ -301,9 +301,9 @@ noun
     </item>
     <item>
       <title>The Best Medicine</title>
-      <link>http://localhost:8000/2013/09/23/the-best-medicine/</link>
+      <link>http://bhashkar.me/2013/09/23/the-best-medicine/</link>
       <pubDate>Mon, 23 Sep 2013 18:00:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/09/23/the-best-medicine/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/09/23/the-best-medicine/</guid>
       <author></author>
       <description>&lt;p&gt;Sense of humor has been linked to intelligence; and I’m not surprised. I don’t recall seeing a deer cracking up in the woods; but then I don’t frequent the woods. Bears scare me.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Sobriety has its upsides, but only for a while. There’s a reason so many authors and creative people died of substance abuse - they found it preferable to the alternative. The addition of ethanol to blood causes many a hidden talents to show. There’s a reason “Hold my beer and watch!” is one of the most famous last words. Besides, no good story starts with “So I was eating salad…”.&lt;/p&gt;
@@ -326,11 +326,11 @@ noun
     </item>
     <item>
       <title>Science, bitches!</title>
-      <link>http://localhost:8000/2013/09/22/science-bitches/</link>
+      <link>http://bhashkar.me/2013/09/22/science-bitches/</link>
       <pubDate>Sun, 22 Sep 2013 05:19:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/09/22/science-bitches/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/09/22/science-bitches/</guid>
       <author></author>
-      <description>&lt;p&gt;Science is about more than asking questions. &lt;a href=&quot;http://localhost:8000/2013/09/21/the-importance-of-asking-questions.html&quot;&gt;Asking questions&lt;/a&gt; most certainly is step 0. The next step is about finding out the unknown, or to build the inexistent. As I like to think, science has 2 feet: discovery and invention. While discoveries keep the clock ticking and help us solve tough problems, inventions make life easier. Using it’s powers of reasoning and questioning, it has improved the quality of life tremendously over the years.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Science is about more than asking questions. &lt;a href=&quot;http://bhashkar.me/2013/09/21/the-importance-of-asking-questions.html&quot;&gt;Asking questions&lt;/a&gt; most certainly is step 0. The next step is about finding out the unknown, or to build the inexistent. As I like to think, science has 2 feet: discovery and invention. While discoveries keep the clock ticking and help us solve tough problems, inventions make life easier. Using it’s powers of reasoning and questioning, it has improved the quality of life tremendously over the years.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Science is also about refusing to accept “God’s will” and covering unchartered territories.&lt;/p&gt;
 &lt;p&gt;For ex. People used to “naturally” die in their thirties; famines and diseases were supposed to be God’s wrath for something that made him unhappy. Rains, volcanoes, eclipses and natural phenomena were mysteries. Most of them have been figured out; and we have used that knowledge to advance the life span and the quality of life.&lt;/p&gt;
 &lt;p&gt;None of this would have been possible had we taken the general religious attitude, which happens to be: things are this way because God wants them to be this way. Taking things for how they are and not questioning are the biggest disservice you can do to your life and to your power of thinking, IMHO. If you take everything at their face value, you essentially end up living a life as dictated by others. In other words, you’re living their life. It makes you redundant.&lt;/p&gt;
@@ -345,9 +345,9 @@ noun
     </item>
     <item>
       <title>The Importance Of Asking Questions</title>
-      <link>http://localhost:8000/2013/09/21/the-importance-of-asking-questions/</link>
+      <link>http://bhashkar.me/2013/09/21/the-importance-of-asking-questions/</link>
       <pubDate>Sat, 21 Sep 2013 07:30:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/09/21/the-importance-of-asking-questions/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/09/21/the-importance-of-asking-questions/</guid>
       <author></author>
       <description>&lt;p&gt;We humans are the dominant species on this planet (or so we like to believe; I wouldn’t get into the microbial side of the story because this post is not about that).&lt;/p&gt;
 &lt;p&gt;We have spent thousands of years learning and civilizing ourselves, and that is the reason we, as a species, have gained whatever knowledge we have about the world around us. That is one of the reasons for our survival while many other species came and went. That, and adapting ourselves to changing surroundings; and changing our surroundings to suit us.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
@@ -369,9 +369,9 @@ noun
     </item>
     <item>
       <title>One Post A Day</title>
-      <link>http://localhost:8000/2013/09/20/one-post-a-day/</link>
+      <link>http://bhashkar.me/2013/09/20/one-post-a-day/</link>
       <pubDate>Fri, 20 Sep 2013 02:49:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/09/20/one-post-a-day/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/09/20/one-post-a-day/</guid>
       <author></author>
       <description>&lt;p&gt;I have been extremely lazy when it comes to being regular about writing, even though it happens to be my self-confessed hobby and dream to read, write and live amongst books for the rest of my life. That, and traveling.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;This is an attempt to put an end to the procrastination and get cracking. A shot in the dark, if you will. I’ve never put myself to a challenge publicly, till now.&lt;/p&gt;
@@ -382,9 +382,9 @@ noun
     </item>
     <item>
       <title>The NSA has programs that collect data on US Supreme Court Justices and elected officials, and they secretly provide it to Israel</title>
-      <link>http://localhost:8000/2013/09/12/the-nsa-has-programs-that-collect-data-on-us-supreme-court-justices-and-elected-officials-and-they-secretly-provide-it-to-israel/</link>
+      <link>http://bhashkar.me/2013/09/12/the-nsa-has-programs-that-collect-data-on-us-supreme-court-justices-and-elected-officials-and-they-secretly-provide-it-to-israel/</link>
       <pubDate>Thu, 12 Sep 2013 11:11:54 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/09/12/the-nsa-has-programs-that-collect-data-on-us-supreme-court-justices-and-elected-officials-and-they-secretly-provide-it-to-israel/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/09/12/the-nsa-has-programs-that-collect-data-on-us-supreme-court-justices-and-elected-officials-and-they-secretly-provide-it-to-israel/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.theguardian.com/world/2013/sep/11/nsa-americans-personal-data-israel-documents&quot;&gt;Latest Snowden revelation&lt;/a&gt; makes things look as if the NSA was being run by Israel all along.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Thanks to Snowden, we now know the NSA:&lt;/p&gt;
@@ -413,9 +413,9 @@ noun
     </item>
     <item>
       <title>Feelings about AngularJS</title>
-      <link>http://localhost:8000/2013/09/11/feelings-about-angularjs/</link>
+      <link>http://bhashkar.me/2013/09/11/feelings-about-angularjs/</link>
       <pubDate>Wed, 11 Sep 2013 16:14:20 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/09/11/feelings-about-angularjs/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/09/11/feelings-about-angularjs/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;img src=&quot;http://rockerhome.files.wordpress.com/2013/09/feelings_about_angularjs_over_time.png&quot; alt=&quot;Feelings about AngularJS&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Funny depiction of what you go through while learning Angular.&lt;/p&gt;
@@ -423,9 +423,9 @@ noun
     </item>
     <item>
       <title>Atwood's Law</title>
-      <link>http://localhost:8000/2013/08/26/atwood-s-law/</link>
+      <link>http://bhashkar.me/2013/08/26/atwood-s-law/</link>
       <pubDate>Mon, 26  Aug 2013 08:29:59 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/08/26/atwood-s-law/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/08/26/atwood-s-law/</guid>
       <author></author>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.codinghorror.com/blog/2007/07/the-principle-of-least-power.html&quot;&gt;Any application that &lt;em&gt;can&lt;/em&gt; be written in JavaScript, &lt;em&gt;will&lt;/em&gt; eventually be written in JavaScript. &lt;/a&gt;&lt;/p&gt;
@@ -435,9 +435,9 @@ noun
     </item>
     <item>
       <title>The end of privacy as we know it</title>
-      <link>http://localhost:8000/2013/08/07/the-end-of-privacy-as-we-know-it/</link>
+      <link>http://bhashkar.me/2013/08/07/the-end-of-privacy-as-we-know-it/</link>
       <pubDate>Wed, 07  Aug 2013 16:20:43 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/08/07/the-end-of-privacy-as-we-know-it/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/08/07/the-end-of-privacy-as-we-know-it/</guid>
       <author></author>
       <description>&lt;p&gt;I remember Eric Schmidt saying something to the effect of “if you don’t want something to be publicly known, don’t post it on the internet”. But as we have seen with the deeper proliferation of ‘social media’ on our lives, we can’t stop but share every moment of our lives online.&lt;span class=&quot;more&quot; /&gt; There are specialized channels for us to share different types of content. I’m not here to rave about how the definition of words ‘share’, ‘like’ and ‘social’ has been &lt;del&gt;perverted&lt;/del&gt; changed over the last few years.&lt;/p&gt;
 &lt;p&gt;There are enormous psychological and social effects of social media about which tons has already been written. This post has been motivated by what we have lately learned about all that has been going on in the past many years unbeknownst to mere mortals outside the high echelons of the government and corporates that we so willingly give all our information to.&lt;/p&gt;
@@ -456,9 +456,9 @@ noun
     </item>
     <item>
       <title>What if Google starts doing it?</title>
-      <link>http://localhost:8000/2013/05/27/what-if-google-starts-doing-it/</link>
+      <link>http://bhashkar.me/2013/05/27/what-if-google-starts-doing-it/</link>
       <pubDate>Mon, 27 May 2013 06:59:35 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/05/27/what-if-google-starts-doing-it/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/05/27/what-if-google-starts-doing-it/</guid>
       <author></author>
       <description>&lt;p&gt;This has been a question I have come across many times, and must say, is not a pointless one. I have been asked this by my friends many times I discuss an idea with them, and Google told me that &lt;a href=&quot;http://whatifgoogledoesit.com/&quot;&gt;many VCs do it&lt;/a&gt; too.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I have always loved Google. For their culture, for the simple UI of their products, for supporting open technologies, for providing high-quality products (mostly) for free, unless you are a power user; and for tackling big problems. Theoretically, many of those things are still valid. But there is a problem. I am no longer a student, and when I pick a product, especially for professional use, I have to know that it will work, I will get the support in case I need it; and most importantly, it will still be around 6 months or 2 years from now. That is where this argument has started faltering lately.&lt;/p&gt;
@@ -468,9 +468,9 @@ noun
     </item>
     <item>
       <title>The Real Story Behind Facebook Moderation and Your Petty Reports</title>
-      <link>http://localhost:8000/2013/04/16/the-real-story-behind-facebook-moderation-and-your-petty-reports/</link>
+      <link>http://bhashkar.me/2013/04/16/the-real-story-behind-facebook-moderation-and-your-petty-reports/</link>
       <pubDate>Tue, 16 Apr 2013 13:42:44 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/04/16/the-real-story-behind-facebook-moderation-and-your-petty-reports/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/04/16/the-real-story-behind-facebook-moderation-and-your-petty-reports/</guid>
       <author></author>
       <description>&lt;p&gt;The other perspective.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://theinternetoffendsme.wordpress.com/2013/04/09/the-real-story-behind-facebook-moderation-and-your-petty-reports/&quot;&gt;Read the original story&lt;/a&gt;&lt;/p&gt;
@@ -478,9 +478,9 @@ noun
     </item>
     <item>
       <title>Some amazing answers I came across on StackOverflow</title>
-      <link>http://localhost:8000/2013/04/08/some-amazing-answers-i-came-across-on-stackoverflow/</link>
+      <link>http://bhashkar.me/2013/04/08/some-amazing-answers-i-came-across-on-stackoverflow/</link>
       <pubDate>Mon, 08 Apr 2013 20:12:29 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2013/04/08/some-amazing-answers-i-came-across-on-stackoverflow/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2013/04/08/some-amazing-answers-i-came-across-on-stackoverflow/</guid>
       <author></author>
       <description>&lt;p&gt;Very descriptive and well-written. Not to mention long.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/739654/understanding-python-decorators#1594484&quot;&gt;Decorators in Python&lt;/a&gt;&lt;/p&gt;
@@ -490,9 +490,9 @@ noun
     </item>
     <item>
       <title>Welcome to The Matrix</title>
-      <link>http://localhost:8000/2012/11/26/welcome-to-the-matrix/</link>
+      <link>http://bhashkar.me/2012/11/26/welcome-to-the-matrix/</link>
       <pubDate>Mon, 26 Nov 2012 14:18:05 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/11/26/welcome-to-the-matrix/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/11/26/welcome-to-the-matrix/</guid>
       <author></author>
       <description>&lt;p&gt;We have entered the second generation of ‘machine generation’ with 3D printers. Till now we used to have machines assembling machines from parts. For example, a robot in a car factory building a car.&lt;span class=&quot;more&quot; /&gt; [UPDATE: link added] &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.wired.com/autopia/2013/02/3d-printed-car/&quot;&gt;Now we can ‘print’ cars&lt;/a&gt;, or their parts thereof using a 3D printer. &lt;/p&gt;
@@ -506,9 +506,9 @@ noun
     </item>
     <item>
       <title>Walking the slow road</title>
-      <link>http://localhost:8000/2012/11/16/walking-the-slow-road/</link>
+      <link>http://bhashkar.me/2012/11/16/walking-the-slow-road/</link>
       <pubDate>Fri, 16 Nov 2012 12:43:03 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/11/16/walking-the-slow-road/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/11/16/walking-the-slow-road/</guid>
       <author></author>
       <description>&lt;p&gt;I took my ‘annual’ break at Deewali this year, and decided to stay completely out-of-touch from the internet. Here are my experiences.&lt;span class=&quot;more&quot; /&gt; Some of them might be super-obvious: &lt;/p&gt;
 &lt;ol&gt;
@@ -524,11 +524,11 @@ Overall, it was fun taking a break. I intend to take more of these shut-offs goi
     </item>
     <item>
       <title>A Eulogy</title>
-      <link>http://localhost:8000/2012/11/09/a-eulogy/</link>
+      <link>http://bhashkar.me/2012/11/09/a-eulogy/</link>
       <pubDate>Fri, 09 Nov 2012 06:00:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/11/09/a-eulogy/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/11/09/a-eulogy/</guid>
       <author></author>
-      <description>&lt;p&gt;&lt;em&gt;[Note: I am publishing this post backdated to when I wrote it, because I was in &lt;a href=&quot;http://localhost:8000/2012/11/16/walking-the-slow-road/&quot;&gt;internet detox&lt;/a&gt; back then]&lt;/em&gt;&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;[Note: I am publishing this post backdated to when I wrote it, because I was in &lt;a href=&quot;http://bhashkar.me/2012/11/16/walking-the-slow-road/&quot;&gt;internet detox&lt;/a&gt; back then]&lt;/em&gt;&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Last night my father received a call. The caller informed that Mukesh was no more. Mukesh, as I recalled from 2 years ago, was probably one of the youngest people I had met working at that branch of the bank my dad works with. He was 33.&lt;/p&gt;
 &lt;p&gt;I had only had one meeting with Mukesh, back in 2010. Other than that, there were a couple of times I ran into him at the bank. And we talked a few times on the phone. There isn’t much you can gather from such short encounters with a person, but there were some things that caught my eye. For one, it was hard not to notice him, because of his XXXL frame which, I think, was due to some metabolic anomaly. He was a jovial fellow, as some say most chubby people are. But he was also well read, quite literally, because as he told me, books were all he spent his money on, and that he had a home full of books. I intended to check out the collection someday, but that never happened; because on my vacations last year I got to know that he had moved to another city.&lt;/p&gt;
 &lt;p&gt;I’ll just share my recollections of one brief meeting we had at that coffee house of which even the name I can’t recall right now. We talked about life, dreams and careers. He told me how he got into banking, which was a very interesting story. He had a crush on this girl in his neighborhood, and she was prepping for the banking entrance exams. While she asked our man to help her with mathematics, if I remember correctly, he thought of taking the test himself, well, for kinda obvious reasons. What ended up happening, though, was that he cleared the exam while the girl didn’t. I’m guessing it was our very familiar “let’s grab the opportunity at hand” thought that caused him to enroll for the training. He confided in me that he didn’t really find the work exciting or challenging and was thinking of heading for his PhD and moving into the education sector which I wished him luck for. I talked about how I was enjoying and loving my work and having fun while learning a lot. We parted after that, since it was a chilly winter evening. After that the couple of conversations I had with him were mostly around some banking procedure I wanted to know about, or general pleasantries. And all of a sudden, now this.&lt;/p&gt;
@@ -540,9 +540,9 @@ Overall, it was fun taking a break. I intend to take more of these shut-offs goi
     </item>
     <item>
       <title>My talk at Droidcon Hacknight</title>
-      <link>http://localhost:8000/2012/10/30/my-talk-at-droidcon-hacknight/</link>
+      <link>http://bhashkar.me/2012/10/30/my-talk-at-droidcon-hacknight/</link>
       <pubDate>Tue, 30 Oct 2012 11:17:44 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/10/30/my-talk-at-droidcon-hacknight/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/10/30/my-talk-at-droidcon-hacknight/</guid>
       <author></author>
       <description>&lt;div class=&quot;video-box&quot;&gt;
     &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/oYiSuxPpJTg&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -554,9 +554,9 @@ Overall, it was fun taking a break. I intend to take more of these shut-offs goi
     </item>
     <item>
       <title>The plight of shortlinks</title>
-      <link>http://localhost:8000/2012/10/08/the-plight-of-shortlinks/</link>
+      <link>http://bhashkar.me/2012/10/08/the-plight-of-shortlinks/</link>
       <pubDate>Mon, 08 Oct 2012 10:40:14 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/10/08/the-plight-of-shortlinks/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/10/08/the-plight-of-shortlinks/</guid>
       <author></author>
       <description>&lt;p&gt;This morning, it turns out, t.co, twitter’s own URL shortner links were not working. The browser responded with ‘Lookup failed’, while wget said this:&lt;span class=&quot;more&quot; /&gt; &lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;Resolving t.co (t.co)... failed: nodename nor servname provided, or not known. 
@@ -643,9 +643,9 @@ Domain Last Updated Date: Mon Oct &lt;span class=&quot;number&quot;&gt;08&lt;/sp
     </item>
     <item>
       <title>This keeps getting hotter</title>
-      <link>http://localhost:8000/2012/09/27/this-keeps-getting-hotter/</link>
+      <link>http://bhashkar.me/2012/09/27/this-keeps-getting-hotter/</link>
       <pubDate>Thu, 27 Sep 2012 21:22:22 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/09/27/this-keeps-getting-hotter/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/09/27/this-keeps-getting-hotter/</guid>
       <author></author>
       <description>&lt;p&gt;I’m not pointing fingers, but iOS 6 is stripping off Google search referrer data.&lt;span class=&quot;more&quot; /&gt; No, doesn’t seem to be an OS bug; Bing data is preserved (&lt;a href=&quot;http://searchengineland.com/ios-6-removes-all-google-search-referer-data-134560&quot;&gt;read more here&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;I might be wrong, but you can’t ignore the big picture. Take this, and add to it the fact that Apple bid goodbye to Google Maps in its latest iOS update and you can start getting a clearer indication of things to come.&lt;/p&gt;
@@ -657,9 +657,9 @@ Domain Last Updated Date: Mon Oct &lt;span class=&quot;number&quot;&gt;08&lt;/sp
     </item>
     <item>
       <title>Caput Draconis</title>
-      <link>http://localhost:8000/2012/09/23/caput-draconis/</link>
+      <link>http://bhashkar.me/2012/09/23/caput-draconis/</link>
       <pubDate>Sun, 23 Sep 2012 21:20:33 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/09/23/caput-draconis/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/09/23/caput-draconis/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;em&gt;[The title is the first password mentioned in Harry Potter books]&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I have always been paranoid about security, but in the last few weeks the paranoia has increased, especially since I read how &lt;a href=&quot;http://www.wired.com/gadgetlab/2012/08/apple-amazon-mat-honan-hacking/all/&quot;&gt;hackers almost entirely erased the digital life of Mat Honan&lt;/a&gt;.&lt;span class=&quot;more&quot; /&gt; [Here’s the &lt;a href=&quot;http://www.wired.com/gadgetlab/2012/08/mat-honan-data-recovery/all/&quot;&gt;follow-up articles on how he got (a part of) his data back&lt;/a&gt; and then about &lt;a href=&quot;http://www.wired.com/gadgetlab/2012/09/cosmo-the-god-who-fell-to-earth/all/&quot;&gt;catching the hacker&lt;/a&gt;]&lt;/p&gt;
@@ -677,9 +677,9 @@ Domain Last Updated Date: Mon Oct &lt;span class=&quot;number&quot;&gt;08&lt;/sp
     </item>
     <item>
       <title>VirtualBox Guest Additions on Ubuntu Server 12.04</title>
-      <link>http://localhost:8000/2012/09/15/virtualbox-guest-additions-on-ubuntu-server-12-04/</link>
+      <link>http://bhashkar.me/2012/09/15/virtualbox-guest-additions-on-ubuntu-server-12-04/</link>
       <pubDate>Sat, 15 Sep 2012 23:38:19 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/09/15/virtualbox-guest-additions-on-ubuntu-server-12-04/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/09/15/virtualbox-guest-additions-on-ubuntu-server-12-04/</guid>
       <author></author>
       <description>&lt;p&gt;While trying to set up the development environment for my site, I was having problems making VirtualBox Guest Additions let me share files with the host OS. The production env is Ubuntu Server 12.04 running on AWS EC2 so it was obvious I had to use a VM on the MacBook to ensure my dev env is in sync with the production.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;When a couple of tries failed, I decided to start fresh. I deleted the existing VM, churned out a new machine and installed Ubuntu Server 12.04 (Precise Pangolin) on it. Then I proceeded with installing the VirtualBox Guest Additions. For this, I mounted the VBoxGuestAdditions_4.1.6.iso on the machine and ran the following command on it&lt;/p&gt;
@@ -724,9 +724,9 @@ Creating udev rule &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; the Gu
     </item>
     <item>
       <title>Quarter of a Century as an Earthling</title>
-      <link>http://localhost:8000/2012/09/04/quarter-of-a-century-as-an-earthling/</link>
+      <link>http://bhashkar.me/2012/09/04/quarter-of-a-century-as-an-earthling/</link>
       <pubDate>Tue, 04 Sep 2012 17:35:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/09/04/quarter-of-a-century-as-an-earthling/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/09/04/quarter-of-a-century-as-an-earthling/</guid>
       <author></author>
       <description>&lt;p&gt;Having completed 25 years on this planet, I suddenly feel old :P and no longer a teenager (looks like it took me a while to get out of that one).&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Wanted to share a couple of things I have learnt (forgive me if something doesn’t fit, I’m still learning).&lt;/p&gt;
@@ -762,9 +762,9 @@ Creating udev rule &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; the Gu
     </item>
     <item>
       <title>I'm offended!</title>
-      <link>http://localhost:8000/2012/08/25/i-m-offended/</link>
+      <link>http://bhashkar.me/2012/08/25/i-m-offended/</link>
       <pubDate>Sat, 25  Aug 2012 04:37:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/08/25/i-m-offended/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/08/25/i-m-offended/</guid>
       <author></author>
       <description>&lt;p&gt;Taking offense is our national sport and pastime. Like weddings. And cricket. [As a side note, thanks to &lt;a href=&quot;http://en.wikipedia.org/wiki/India_at_the_2012_Summer_Olympics&quot;&gt;Sushil, Yogeshwar, Saina and Mary Kom&lt;/a&gt; for reminding us that there are other sports in the World]. Someone should suggest adding the event of ‘taking offense’ to the Olympic games. It could entail 7 people sitting around a table trying to prove everyone else an ostrich with their head stuck in cemented ground. I’m sure we have a prize reserved in that. Unless &lt;a href=&quot;http://www.care2.com/causes/somali-comedian-shot-dead-after-making-islamist-jokes.html&quot;&gt;someone&lt;/a&gt; beats us to it.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We can find reasons to get offended in space in the midst of the vacuum, or at the bottom of the sea. At any given point in time, you can pick up any newspaper and find someone seeking apology from someone because they said or did something which offended them, or their fishes. Maybe their cantaloupe. There is no dearth of people waiting to pound on you just because in some super freaking vaguely awesome way, you hurt their personal, religious or political beliefs, regardless of however outdated or senseless they might have been. Or because you stopped them from &lt;a href=&quot;http://www.newscientist.com/article/mg21428714.000-miracle-buster-why-i-traced-holy-water-to-leaky-drain.html&quot;&gt;drinking drainage water&lt;/a&gt; thinking it was coming straight from God.&lt;/p&gt;
@@ -778,9 +778,9 @@ Creating udev rule &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; the Gu
     </item>
     <item>
       <title>Fuck Yeah!</title>
-      <link>http://localhost:8000/2012/07/29/fuck-yeah/</link>
+      <link>http://bhashkar.me/2012/07/29/fuck-yeah/</link>
       <pubDate>Sun, 29 Jul 2012 09:15:24 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/07/29/fuck-yeah/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/07/29/fuck-yeah/</guid>
       <author></author>
       <description>&lt;p&gt;Forbes is &lt;a href=&quot;http://www.forbes.com/sites/briancaulfield/2012/07/27/aol-unit-techcrunch-q2-adjusted-f-bomb-production-down-45/&quot;&gt;counting&lt;/a&gt; the number of fucks TechCrunch gives; and TC &lt;a href=&quot;http://techcrunch.com/2012/07/27/fornicating-under-consent-of-the-king/&quot;&gt;hits back&lt;/a&gt;.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I found the whole episode amusing; specially the fact that they related it to &lt;a href=&quot;http://uncrunched.com/&quot;&gt;Arrington&lt;/a&gt;, &lt;a href=&quot;http://parislemon.com/&quot;&gt;Siegler&lt;/a&gt; and &lt;a href=&quot;https://www.nsfwcorp.com/&quot;&gt;Carr&lt;/a&gt; leaving TC.&lt;/p&gt;
@@ -791,18 +791,18 @@ Creating udev rule &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; the Gu
     </item>
     <item>
       <title>CSS Margin In Percentage</title>
-      <link>http://localhost:8000/2012/07/12/css-margin-in-percentage/</link>
+      <link>http://bhashkar.me/2012/07/12/css-margin-in-percentage/</link>
       <pubDate>Thu, 12 Jul 2012 19:29:30 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/07/12/css-margin-in-percentage/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/07/12/css-margin-in-percentage/</guid>
       <author></author>
       <description>&lt;p&gt;Okay, this is funny; but only if it doesn’t come in the way of you getting things done on time. I was trying to assign percentage margin to a &amp;lt;div&amp;gt; and it kept throwing me off on the calculations. A bit of googling led me to this &lt;a href=&quot;http://www.mattsnider.com/css-using-percent-for-margin-and-padding/&quot;&gt;explanation&lt;/a&gt;. If you are giving padding/margin in percentage, due to some out-of-the-world reason it would calculate on the basis of the &lt;em&gt;width&lt;/em&gt; of the parent element; whether you are calculating left-right values for margin/padding, or the top-bottom ones. It beats me as to why is it this way. Let me know if you know the answer. Back to work!&lt;/p&gt;
 </description>
     </item>
     <item>
       <title>Just For Fun</title>
-      <link>http://localhost:8000/2012/07/01/just-for-fun/</link>
+      <link>http://bhashkar.me/2012/07/01/just-for-fun/</link>
       <pubDate>Sun, 01 Jul 2012 15:30:51 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/07/01/just-for-fun/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/07/01/just-for-fun/</guid>
       <author></author>
       <description>&lt;p&gt;Just the other day… &lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; re, os
@@ -825,9 +825,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>Setting up my own server, finally!</title>
-      <link>http://localhost:8000/2012/06/24/setting-up-my-own-server-finally/</link>
+      <link>http://bhashkar.me/2012/06/24/setting-up-my-own-server-finally/</link>
       <pubDate>Sun, 24 Jun 2012 13:55:45 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/06/24/setting-up-my-own-server-finally/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/06/24/setting-up-my-own-server-finally/</guid>
       <author></author>
       <description>&lt;p&gt;I had bought the domain &lt;a href=&quot;http://bhashkar.me/&quot;&gt;bhashkar.me&lt;/a&gt; a year back, but didn’t really use it for something worthwhile. It hit me when time came to renew the lease on that thing that it was something I could have made good use of, and I decided to.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Next thing I know, I had got myself an &lt;a href=&quot;http://aws.amazon.com/free/&quot;&gt;AWS Free tier&lt;/a&gt; and decided to set up a micro-site of sorts. I started looking for best options for a basic platform.&lt;/p&gt;
@@ -839,9 +839,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>Advertising</title>
-      <link>http://localhost:8000/2012/06/03/advertising/</link>
+      <link>http://bhashkar.me/2012/06/03/advertising/</link>
       <pubDate>Sun, 03 Jun 2012 11:01:12 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/06/03/advertising/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/06/03/advertising/</guid>
       <author></author>
       <description>&lt;p&gt;Advertising is one of primary sources of revenue for many companies, and of primary expenditure for many others.&lt;/p&gt;
 &lt;p&gt;In order to validate the humongous expenditure on adverts and to optimize the RoI, a lot of researches are conducted to create the right messaging and feeling around the product and the brand to improve the targeting and enhance the effect advertisements have on the audience.&lt;span class=&quot;more&quot; /&gt; Advertising is what enables us to know about the new products and companies in town, gives us options to choose from and thus provides for a better market (going by the age-old ‘Competition breeds excellence’ adage).&lt;/p&gt;
@@ -853,9 +853,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>The Killer App</title>
-      <link>http://localhost:8000/2012/06/03/the-killer-app/</link>
+      <link>http://bhashkar.me/2012/06/03/the-killer-app/</link>
       <pubDate>Sun, 03 Jun 2012 10:12:05 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/06/03/the-killer-app/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/06/03/the-killer-app/</guid>
       <author></author>
       <description>&lt;p&gt;Every once in a while, I used to come across this phrase (although the frequency has now diminished and gave way to &lt;em&gt;enter-successful-product&lt;/em&gt;-killer in recent times). Since 2007 there have been at least 20 so-called iPhone killers, and every few days we get to see a new self-proclaimed Facebook/Instagram/Google killer.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://rockerhome.files.wordpress.com/2012/06/appstore-logo.png&quot; alt=&quot;What is The New Big Thing?&quot;&gt;&lt;/p&gt;
@@ -866,9 +866,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>Turning of the tables</title>
-      <link>http://localhost:8000/2012/05/28/turning-of-the-tables/</link>
+      <link>http://bhashkar.me/2012/05/28/turning-of-the-tables/</link>
       <pubDate>Mon, 28 May 2012 10:44:06 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/05/28/turning-of-the-tables/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/05/28/turning-of-the-tables/</guid>
       <author></author>
       <description>&lt;p&gt;I landed on this &lt;a href=&quot;http://john.jubjubs.net/2007/06/14/a-pictures-worth-100m-users/&quot;&gt;article&lt;/a&gt; and it sounded pretty amusing to me. Why? Because when it was written, Apple was planning its dominance on the Web, as it seems. But here’s the point: &lt;a href=&quot;http://google.com/chrome&quot;&gt;something inexistent&lt;/a&gt; 4 years ago has the largest market share in the World today. It would not have been possible if it wasn’t for open standards and continuous push towards creating something better and, of course, Google.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://rockerhome.files.wordpress.com/2012/05/screen-shot-2012-05-28-at-10-27-14-am.png&quot; alt=&quot;Web Browser Market Share: Chrome overtakes IE&quot;&gt;&lt;/p&gt;
@@ -878,9 +878,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>Heartbreaks</title>
-      <link>http://localhost:8000/2012/05/06/heartbreaks/</link>
+      <link>http://bhashkar.me/2012/05/06/heartbreaks/</link>
       <pubDate>Sun, 06 May 2012 12:45:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/05/06/heartbreaks/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/05/06/heartbreaks/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;em&gt;[Disclaimer: Those who came looking for a teenage girl’s drama can go jump off their roofs now]&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -908,9 +908,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>Hacking Django-Piston</title>
-      <link>http://localhost:8000/2012/05/06/hacking-django-piston/</link>
+      <link>http://bhashkar.me/2012/05/06/hacking-django-piston/</link>
       <pubDate>Sun, 06 May 2012 11:29:59 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/05/06/hacking-django-piston/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/05/06/hacking-django-piston/</guid>
       <author></author>
       <description>&lt;p&gt;At &lt;a href=&quot;http://mobstac.com/&quot;&gt;MobStac&lt;/a&gt;, we are working on building REST API support for the system. After evaluating various REST API framworks for &lt;a href=&quot;http://djangoproject.com/&quot;&gt;django&lt;/a&gt;, I chose to go with &lt;a href=&quot;https://bitbucket.org/jespern/django-piston/&quot;&gt;django-piston&lt;/a&gt;.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Trust me, there is hundreds of pages such as &lt;a href=&quot;http://stackoverflow.com/questions/656979/django-and-restful-apis&quot;&gt;this one&lt;/a&gt; debating on which framework to go with, and amongst the top choices (alongside piston) were &lt;a href=&quot;http://django-rest-framework.org/&quot;&gt;Django REST Framework&lt;/a&gt;, &lt;a href=&quot;http://code.google.com/p/django-rest-interface/wiki/RestifyDjango&quot;&gt;RESTify Django&lt;/a&gt; and others. &lt;/p&gt;
@@ -954,9 +954,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>Keep Looking. Don't Settle.</title>
-      <link>http://localhost:8000/2012/04/15/keep-looking-don-t-settle/</link>
+      <link>http://bhashkar.me/2012/04/15/keep-looking-don-t-settle/</link>
       <pubDate>Sun, 15 Apr 2012 14:31:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/04/15/keep-looking-don-t-settle/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/04/15/keep-looking-don-t-settle/</guid>
       <author></author>
       <description>&lt;p&gt;I’m going to spare you the usual dosage of ‘sorry I haven’t been active lately’ and get straight to the point.&lt;/p&gt;
 &lt;p&gt;I’ve been reading a bit too many college Commencement speeches lately&lt;span class=&quot;more&quot; /&gt; (especially since I became a big fan of &lt;a href=&quot;http://news.stanford.edu/news/2005/june15/jobs-061505.html&quot;&gt;Steve’s&lt;/a&gt;; also check out &lt;a href=&quot;http://halfhalf.posterous.com/dont-work-be-hated-love-someone&quot;&gt;this&lt;/a&gt; and &lt;a href=&quot;http://movies.ndtv.com/movie_story.aspx?keyword=bollywood&amp;amp;ID=ENTEN20120199455&amp;amp;subcatg=MOVIESINDIA&amp;amp;nid=197063&quot;&gt;this&lt;/a&gt;) and there’s certainly commonalities amongst them. The most common messages that these successful and ‘great’ people have tried to pass on is: Dare to dream and be crazy enough to chase it. It certainly is the only way to happiness. Find something you love to do, and have fun doing it. Create new things. Give back to the world. Enjoy the journey. Family and friends are the most important parts of life. Fall in Love.&lt;/p&gt;
@@ -990,9 +990,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>Lessons</title>
-      <link>http://localhost:8000/2012/01/04/lessons/</link>
+      <link>http://bhashkar.me/2012/01/04/lessons/</link>
       <pubDate>Wed, 04 Jan 2012 12:25:19 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2012/01/04/lessons/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2012/01/04/lessons/</guid>
       <author></author>
       <description>&lt;p&gt;Happy 2012 folks! :) In Feb it will be two years since I started working. There are things that come obviously to people. Then there are the ones which take some time. There are the ones that everyone tells you do but you don’t follow until you’ve been bitten in the ass by not following them.&lt;span class=&quot;more&quot; /&gt; Here are a couple of things (my resolution for 2012? Lets call them that) that I’ve realized make life easier for you as a developer:&lt;/p&gt;
 &lt;ol&gt;
@@ -1009,9 +1009,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>What are the odds! :D</title>
-      <link>http://localhost:8000/2011/12/01/what-are-the-odds-d/</link>
+      <link>http://bhashkar.me/2011/12/01/what-are-the-odds-d/</link>
       <pubDate>Thu, 01 Dec 2011 12:11:26 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/12/01/what-are-the-odds-d/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/12/01/what-are-the-odds-d/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;img src=&quot;http://rockerhome.files.wordpress.com/2011/12/screen-shot-2011-12-01-at-12-02-08-pm.png&quot; alt=&quot;I swear its real!&quot;&gt;&lt;/p&gt;
 &lt;p&gt;While working on something I just thought of checking the system date (oh right, I was checking the NGINX logs) and very very coincidentally I landed on that. Thought it would be cool to upload it here ;)&lt;/p&gt;
@@ -1019,9 +1019,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
     </item>
     <item>
       <title>Duplicate a MySQL database</title>
-      <link>http://localhost:8000/2011/10/19/duplicate-a-mysql-database/</link>
+      <link>http://bhashkar.me/2011/10/19/duplicate-a-mysql-database/</link>
       <pubDate>Wed, 19 Oct 2011 12:03:37 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/10/19/duplicate-a-mysql-database/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/10/19/duplicate-a-mysql-database/</guid>
       <author></author>
       <description>&lt;p&gt;I was testing something out, and realized that I needed to clone my database to run some tests while still being able to keep the data intact. And that’s when I started searching for a way to do it, and turns out there’s a one-liner to do the same :) &lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-sql&quot;&gt;# mysqladmin &lt;span class=&quot;operator&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;create&lt;/span&gt; DB_name -u DB_user --password=DB_pass &amp;amp;&amp;amp; \
@@ -1034,9 +1034,9 @@ mysql -u DB_user --password=DB_pass -h DB_host DB_name&lt;/span&gt;
     </item>
     <item>
       <title>If you want to go for an MBA...</title>
-      <link>http://localhost:8000/2011/10/12/if-you-want-to-go-for-an-mba/</link>
+      <link>http://bhashkar.me/2011/10/12/if-you-want-to-go-for-an-mba/</link>
       <pubDate>Wed, 12 Oct 2011 03:47:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/10/12/if-you-want-to-go-for-an-mba/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/10/12/if-you-want-to-go-for-an-mba/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;em&gt;Read this.. and keep in mind while reading that this talk has been given by a professor of IIMC and that the students were some of the best ones and would easily go ahead and bag the highest paying jobs out there (IIM grads, duh!)&lt;/em&gt;
 &lt;a href=&quot;http://www.jokatimes.com/2010/11/08/i-have-a-dream-2/&quot;&gt;http://www.jokatimes.com/2010/11/08/i-have-a-dream-2/&lt;/a&gt;&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
@@ -1056,18 +1056,18 @@ mysql -u DB_user --password=DB_pass -h DB_host DB_name&lt;/span&gt;
     </item>
     <item>
       <title>Steve left us!</title>
-      <link>http://localhost:8000/2011/10/05/steve-left-us/</link>
+      <link>http://bhashkar.me/2011/10/05/steve-left-us/</link>
       <pubDate>Wed, 05 Oct 2011 14:02:07 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/10/05/steve-left-us/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/10/05/steve-left-us/</guid>
       <author></author>
       <description>&lt;p&gt;Its a sad sad day for the World :’-( I’ll try to write something once I gain composure. &lt;img src=&quot;http://rockerhome.files.wordpress.com/2011/10/steve-apple-home.png&quot; alt=&quot;The iCon&quot;&gt;&lt;/p&gt;
 </description>
     </item>
     <item>
       <title>My jsFoo talk</title>
-      <link>http://localhost:8000/2011/10/02/my-jsfoo-talk/</link>
+      <link>http://bhashkar.me/2011/10/02/my-jsfoo-talk/</link>
       <pubDate>Sun, 02 Oct 2011 16:35:52 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/10/02/my-jsfoo-talk/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/10/02/my-jsfoo-talk/</guid>
       <author></author>
       <description>&lt;p&gt;So I got the opportunity to talk at &lt;a href=&quot;http://jsfoo.hasgeek.com/&quot;&gt;jsFoo 2011&lt;/a&gt; organized by &lt;a href=&quot;http://twitter.com/hasgeek&quot;&gt;HasGeek&lt;/a&gt; which also happened to be my first talk since college.&lt;span class=&quot;more&quot; /&gt; Following is my presentation uploaded to SlideShare:&lt;/p&gt;
 &lt;div class=&quot;video-box&quot;&gt;
@@ -1084,9 +1084,9 @@ mysql -u DB_user --password=DB_pass -h DB_host DB_name&lt;/span&gt;
     </item>
     <item>
       <title>Be careful with your /hosts file</title>
-      <link>http://localhost:8000/2011/09/15/be-careful-with-your-hosts-file/</link>
+      <link>http://bhashkar.me/2011/09/15/be-careful-with-your-hosts-file/</link>
       <pubDate>Thu, 15 Sep 2011 11:14:35 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/09/15/be-careful-with-your-hosts-file/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/09/15/be-careful-with-your-hosts-file/</guid>
       <author></author>
       <description>&lt;p&gt;Never remove the mapping that points localhost to 127.0.0.1 in the /hosts file (location can vary depending on the OS).&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I spent 1 day trying to figure out why things were not working expectedly. The reason the issue occurred was because some daemon services running on the machine used the address localhost:port to communicate to each other (which makes perfect sense btw).&lt;/p&gt;
@@ -1096,9 +1096,9 @@ mysql -u DB_user --password=DB_pass -h DB_host DB_name&lt;/span&gt;
     </item>
     <item>
       <title>Found a bug in the iPad!</title>
-      <link>http://localhost:8000/2011/08/24/found-a-bug-in-the-ipad/</link>
+      <link>http://bhashkar.me/2011/08/24/found-a-bug-in-the-ipad/</link>
       <pubDate>Wed, 24  Aug 2011 17:34:47 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/08/24/found-a-bug-in-the-ipad/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/08/24/found-a-bug-in-the-ipad/</guid>
       <author></author>
       <description>&lt;p&gt;The Photos app hanged when I was moving photos around, zooming in and out. Has something to do with multi-touch. &lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Googled it and found lots of people cribbing about the same on the Apple Forum :P Following is the screenshot after which I wasn’t able to do anything in the app. Had to close it and reboot the iPad. Did someone just scream ‘Windows’? :P !&lt;/p&gt;
@@ -1107,9 +1107,9 @@ mysql -u DB_user --password=DB_pass -h DB_host DB_name&lt;/span&gt;
     </item>
     <item>
       <title>NEVER name a folder with a space character on a Unix machine</title>
-      <link>http://localhost:8000/2011/08/10/never-name-a-folder-with-a-space-character-on-a-unix-machine/</link>
+      <link>http://bhashkar.me/2011/08/10/never-name-a-folder-with-a-space-character-on-a-unix-machine/</link>
       <pubDate>Wed, 10  Aug 2011 17:51:17 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/08/10/never-name-a-folder-with-a-space-character-on-a-unix-machine/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/08/10/never-name-a-folder-with-a-space-character-on-a-unix-machine/</guid>
       <author></author>
       <description>&lt;p&gt;And when I say NEVER, I mean NEVER. Although you should ‘&lt;a href=&quot;http://www.youtube.com/watch?v=_Z5-P9v3F8w&amp;amp;ob=av3e&quot;&gt;Never&lt;/a&gt; Say &lt;a href=&quot;http://www.youtube.com/watch?v=Aihu16RyYp8&quot;&gt;Never&lt;/a&gt;‘ :P &lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;But in this case I will. For the simple reason that a &lt;space&gt; character in the source of folder which Eclipse was running from made me waste a couple of my hours spread over 2 days to figure out what on the Earth was going on. It included reinstalling Pydev,  and at one point of time I actually considered reinstalling Eclipse. Then while checking out the error logs it suddenly hit me. I fixed it and Voila! There it was. Working the way it should have. &lt;/p&gt;
@@ -1118,9 +1118,9 @@ mysql -u DB_user --password=DB_pass -h DB_host DB_name&lt;/span&gt;
     </item>
     <item>
       <title>Only once</title>
-      <link>http://localhost:8000/2011/08/10/only-once/</link>
+      <link>http://bhashkar.me/2011/08/10/only-once/</link>
       <pubDate>Wed, 10  Aug 2011 07:09:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/08/10/only-once/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/08/10/only-once/</guid>
       <author></author>
       <description>&lt;p&gt;So I watched ‘&lt;a href=&quot;http://www.imdb.com/title/tt1562872/&quot;&gt;Zindagi Na Milegi Dobara&lt;/a&gt;‘; and loved it!&lt;/p&gt;
 &lt;p&gt;I believe we all need reminders, to be brought back to our senses from the madness of the ever-running world to make ourselves realize that life is not a race.&lt;span class=&quot;more&quot; /&gt; Far from it, its a beautiful journey that we are taking and we have to remember to enjoy ourselves. If we don’t do that, all we would be left with would be fleeting memories and regrets of what could have been a wonderful journey, if only we had realized it in time. This reminds me of a beautiful story that I read. Will try to quote it below.&lt;/p&gt;
@@ -1144,9 +1144,9 @@ Let me know ;-)&lt;/p&gt;
     </item>
     <item>
       <title>Another weekend</title>
-      <link>http://localhost:8000/2011/08/07/another-weekend/</link>
+      <link>http://bhashkar.me/2011/08/07/another-weekend/</link>
       <pubDate>Sun, 07  Aug 2011 10:38:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/08/07/another-weekend/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/08/07/another-weekend/</guid>
       <author></author>
       <description>&lt;p&gt;Haha.. gotcha! Misleading title indeed. :D&lt;/p&gt;
 &lt;p&gt;So its Friendship Day. I am again overflowing with thoughts and emotions about a lot of things and people (happens to me from time to time, especially on such occasions).&lt;span class=&quot;more&quot; /&gt; I did not go ahead and text people ‘Happy Friendship Day’ for a reason- I wanted to wish each of them personally instead of just forwarding a message (no offense meant to anyone). Now as it happens, this might unravel over a period of time in the coming days. Don’t mark my words though. It all depends on how much time I am able to take out to compose each one of those messages, and also on how long this enthusiasm lasts :P&lt;/p&gt;
@@ -1157,9 +1157,9 @@ Let me know ;-)&lt;/p&gt;
     </item>
     <item>
       <title>Meaning</title>
-      <link>http://localhost:8000/2011/07/17/meaning/</link>
+      <link>http://bhashkar.me/2011/07/17/meaning/</link>
       <pubDate>Sun, 17 Jul 2011 13:33:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/07/17/meaning/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/07/17/meaning/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;em&gt;[Alert: The tone of this post is going to be mostly philosophical. You may run now, if you wish]&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Life is fun, humans are funny. I’m kinda lost on where to begin, but let me try.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
@@ -1182,9 +1182,9 @@ Let me know ;-)&lt;/p&gt;
     </item>
     <item>
       <title>Long overdue</title>
-      <link>http://localhost:8000/2011/07/16/long-overdue/</link>
+      <link>http://bhashkar.me/2011/07/16/long-overdue/</link>
       <pubDate>Sat, 16 Jul 2011 12:23:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/07/16/long-overdue/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/07/16/long-overdue/</guid>
       <author></author>
       <description>&lt;p&gt;Tickle my ears and call me lazy, because that’s exactly what I’ve been the past couple of days. Not that I was not feeling guilty about not writing anything despite (trust me, I’m not lying) having 20 things in my head everyday that I could write about.&lt;span class=&quot;more&quot; /&gt; What was stopping me? Well, that’s the mystery and even I don’t think I have an answer to that one. Maybe you should try reading the first line again :P&lt;/p&gt;
 &lt;p&gt;So a lot has happened over the last few days. I’ve been super-busy with work and the Government has been its pathetic self with everything. Nothing unusual so far. I was agitated (and trust you me, I would have written a brash post about the incompetence and buffoonery that’s been going around in the Nation) on the day Mumbai had 3 blasts on Jul 13th. But as of now I’m trying to stay a bit clear of the bashing. Because for one thing, anger doesn’t yield anything. For another, the people who actually can make a big difference are, more often than not, ignorant and careless. And me swearing and boiling my blood is not that great an idea, given that I don’t have that much to spare to begin with :P&lt;/p&gt;
@@ -1196,9 +1196,9 @@ Let me know ;-)&lt;/p&gt;
     </item>
     <item>
       <title>Life Sahi Hai!</title>
-      <link>http://localhost:8000/2011/05/29/life-sahi-hai/</link>
+      <link>http://bhashkar.me/2011/05/29/life-sahi-hai/</link>
       <pubDate>Sun, 29 May 2011 11:48:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/05/29/life-sahi-hai/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/05/29/life-sahi-hai/</guid>
       <author></author>
       <description>&lt;p&gt;Yup, the title happens to be same as (and not coincidentally so) &lt;a href=&quot;http://www.youtube.com/watch?v=JUur2Gjyrog&quot;&gt;this song&lt;/a&gt; from ‘Pyaar Ka Punchnama’. I think this is one movie which has shown romance in a new and fresh (not to mention kinda realistic in today’s world) light.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I don’t mean to be anything ranging from condescending to women, cynical or a love-hater here. Its just that having watched the Bollywood romantic drama for years now, and being a natural romantic, this was a perspective that caught my attention.&lt;/p&gt;
@@ -1218,9 +1218,9 @@ Anyways, being a person who’s been single all his life, wait, did you ask ‘W
     </item>
     <item>
       <title>Realization</title>
-      <link>http://localhost:8000/2011/04/18/realization/</link>
+      <link>http://bhashkar.me/2011/04/18/realization/</link>
       <pubDate>Mon, 18 Apr 2011 17:30:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/04/18/realization/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/04/18/realization/</guid>
       <author></author>
       <description>&lt;p&gt;Squiggly. Funny word. But that’s beyond the point.&lt;/p&gt;
 &lt;p&gt;In the past couple of days I’ve been feeling a little down. For no valid reason whatsoever. I guess most of it was just because things were not happening the way I wanted them to happen, and here’s the kicker, even though I wasn’t making any conscious effort to make them happen.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
@@ -1238,9 +1238,9 @@ Ma Karma Phala Hetur Bhurmatey Sangostva Akarmani”&lt;/p&gt;
     </item>
     <item>
       <title>Weekend</title>
-      <link>http://localhost:8000/2011/03/27/weekend/</link>
+      <link>http://bhashkar.me/2011/03/27/weekend/</link>
       <pubDate>Sun, 27 Mar 2011 11:33:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/03/27/weekend/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/03/27/weekend/</guid>
       <author></author>
       <description>&lt;p&gt;I know, the title sounds lame. But this is the only time of the week that I get for myself (or so I used to think till recently, when I realized I had not been managing it well. I’m working on it, but that makes for another story).&lt;span class=&quot;more&quot; /&gt; Right now, I’m trying to focus on this weekend which, was as un-happening from the outside as any of the 60-odd weekends in the last year, but still there was something to it I just can’t ignore.&lt;/p&gt;
 &lt;p&gt;Now, while I’m not the one to rant or crib about my life on my blog, I just want to share some of the realizations I have been having in the last couple of days. I always try to be a student, someone who learns something from each of his experience. And I think that’s what this post is chiefly going to be about.&lt;/p&gt;
@@ -1251,9 +1251,9 @@ Ma Karma Phala Hetur Bhurmatey Sangostva Akarmani”&lt;/p&gt;
     </item>
     <item>
       <title>Sync your Nokia contacts with GMail contacts</title>
-      <link>http://localhost:8000/2011/01/31/sync-your-nokia-contacts-with-gmail-contacts/</link>
+      <link>http://bhashkar.me/2011/01/31/sync-your-nokia-contacts-with-gmail-contacts/</link>
       <pubDate>Mon, 31 Jan 2011 13:43:20 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/01/31/sync-your-nokia-contacts-with-gmail-contacts/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/01/31/sync-your-nokia-contacts-with-gmail-contacts/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;img src=&quot;http://rockerhome.files.wordpress.com/2011/01/gmail-app-mobile.jpg?w=300&quot; alt=&quot;Nokia GMail sync&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Hi fellas. So I have this Nokia S60 phone (5233) which, sadly, does not have support for Mail for Exchange ActiveSync. And that is the reason I started looking for alternatives to backup and sync my contacts and calendar.&lt;span class=&quot;more&quot; /&gt; An option that can serve the backup purpose is &lt;a href=&quot;http://ovi.com/&quot;&gt;Nokia Ovi&lt;/a&gt; but that is limited to a backup and restore functionality and does not support any syncing with other services AFAIK, which didn’t help my purpose. So I started searching for other alternatives. Now, I don’t know whether any paid solutions work (assuming they exist) but yours truly was not looking for those. After running some queries on Google, I landed on some interesting solutions. And the one that worked for me, I’m sharing here: &lt;/p&gt;
@@ -1280,9 +1280,9 @@ Ma Karma Phala Hetur Bhurmatey Sangostva Akarmani”&lt;/p&gt;
     </item>
     <item>
       <title>Its about time</title>
-      <link>http://localhost:8000/2011/01/29/its-about-time/</link>
+      <link>http://bhashkar.me/2011/01/29/its-about-time/</link>
       <pubDate>Sat, 29 Jan 2011 06:22:11 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/01/29/its-about-time/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/01/29/its-about-time/</guid>
       <author></author>
       <description>&lt;p&gt;Okay people! I promised I would find a worthy use for this blog of mine, since anyways I’m not able to focus on all the blogs I have created over time, so I figured lets make the best possible out of what I got. And I came up with this: technology is one thing I tinker with almost all the time and I guess it would be a good idea to share some of the things I have stumbled upon so that more people can have fun with them! &lt;/p&gt;
 &lt;p&gt;I said it. Its gonna be a tech-blog from now on. :)&lt;/p&gt;
@@ -1290,9 +1290,9 @@ Ma Karma Phala Hetur Bhurmatey Sangostva Akarmani”&lt;/p&gt;
     </item>
     <item>
       <title>Happy Republic Day</title>
-      <link>http://localhost:8000/2011/01/25/happy-republic-day/</link>
+      <link>http://bhashkar.me/2011/01/25/happy-republic-day/</link>
       <pubDate>Tue, 25 Jan 2011 17:12:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/01/25/happy-republic-day/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/01/25/happy-republic-day/</guid>
       <author></author>
       <description>&lt;p&gt;…and along comes the season of patriotism. It is that time of the year when we all forward “Happy Republic Day” and “proud to be an Indian” kind of text messages and emails. The time when we tag each other in “patriotic” images.&lt;span class=&quot;more&quot; /&gt; And come 27th Jan, we return to being ourselves till the 15th August, where this process is repeated. Wait, is that not what it was all about?&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The Constitution of India&lt;/em&gt; defines us as a “&lt;strong&gt;Secular Socialist Sovereign Democratic Republic&lt;/strong&gt;“. But the fact of the matter is, the only secularism that we see is used to protect the minorities’ interests, as long as it fetches votes. The individual might have broken the law, but the real point that is made is that since he is a minority, these actions are being taken against him. Again, I’m not in favor of any kind of terrorism, be it region-based (think: MNS or Telangana for that matter) or religion-based (I’m equally against the Hindu terrorist groups as I’m against the others). I’m totally up for &lt;strong&gt;social&lt;/strong&gt; and economic equality, but is that what we see around us? We might be &lt;strong&gt;sovereign&lt;/strong&gt; in theory, but I have my doubts about the external powers influencing our country’s decision making. &lt;strong&gt;Democracy&lt;/strong&gt; is at best a de-mock-racy. Of the people, by the people.. and I can’t stop laughing- for the people? I guess the “people” here are the ones sitting on thrones. We removed 500 kings and created 50000 of them. We indeed are &lt;strong&gt;republic&lt;/strong&gt; in the sense that the Head of State is not a monarch. And why? Because the Head of State is a puppet in the hands of the real monarch. Definition of &lt;strong&gt;monarchy&lt;/strong&gt;: an autocracy governed by a monarch who usually inherits the authority. Sounds familiar?&lt;/p&gt;
@@ -1307,9 +1307,9 @@ Ma Karma Phala Hetur Bhurmatey Sangostva Akarmani”&lt;/p&gt;
     </item>
     <item>
       <title>Get this!</title>
-      <link>http://localhost:8000/2011/01/05/get-this/</link>
+      <link>http://bhashkar.me/2011/01/05/get-this/</link>
       <pubDate>Wed, 05 Jan 2011 09:11:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2011/01/05/get-this/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2011/01/05/get-this/</guid>
       <author></author>
       <description>&lt;p&gt;A Poem &lt;/p&gt;
 &lt;p&gt;Many many years ago&lt;br/&gt;
@@ -1357,9 +1357,9 @@ I am my own grandpa!&lt;/p&gt;
     </item>
     <item>
       <title>Social? Really?</title>
-      <link>http://localhost:8000/2010/12/04/social-really/</link>
+      <link>http://bhashkar.me/2010/12/04/social-really/</link>
       <pubDate>Sat, 04 Dec 2010 16:05:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2010/12/04/social-really/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2010/12/04/social-really/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;em&gt;[Disclaimer: This article is in no way written with any prejudices towards social networking and internet socializing. Its purpose is to point out that virtual ‘social’ world is shadowing the real ‘social’ world. That doesn’t sound amusing to me, especially going forward.]&lt;/em&gt;&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Life is an amazing journey, inter-spaced with gifts and lessons. Gifts are what we see as the ‘good’ things happening to us, while lessons are their ‘bad’ counterparts.&lt;/p&gt;
@@ -1373,9 +1373,9 @@ I am my own grandpa!&lt;/p&gt;
     </item>
     <item>
       <title>In PyCon 2010</title>
-      <link>http://localhost:8000/2010/09/26/in-pycon-2010/</link>
+      <link>http://bhashkar.me/2010/09/26/in-pycon-2010/</link>
       <pubDate>Sun, 26 Sep 2010 03:11:55 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2010/09/26/in-pycon-2010/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2010/09/26/in-pycon-2010/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;em&gt;[This post has been imported from my blogspot blog, where it looked a bit misplaced to me considering the fact that I post my ramblings there. Besides, this does the job of first tech-post that I needed to write. For sanity’s sake, I have kept the same publishing date as on the original post. A few enhancements have been made to the post. Have fun.]&lt;/em&gt; &lt;/p&gt;
 &lt;p&gt;I’ve just got back from InPyCon’2010.&lt;span class=&quot;more&quot; /&gt; &lt;/p&gt;
@@ -1394,9 +1394,9 @@ I am my own grandpa!&lt;/p&gt;
     </item>
     <item>
       <title>Writing from Pune</title>
-      <link>http://localhost:8000/2010/08/13/writing-from-pune/</link>
+      <link>http://bhashkar.me/2010/08/13/writing-from-pune/</link>
       <pubDate>Fri, 13  Aug 2010 12:27:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2010/08/13/writing-from-pune/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2010/08/13/writing-from-pune/</guid>
       <author></author>
       <description>&lt;p&gt;Yesterday finally I got to do what I had been meaning to do for quite a while now - visit Pune. :P&lt;/p&gt;
 &lt;p&gt;With so many of college people out there and almost no one having time to travel between places (atleast that’s what they tried to imply) ;) I figured I’d do the needful if I had to meet those busy souls.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
@@ -1409,9 +1409,9 @@ I am my own grandpa!&lt;/p&gt;
     </item>
     <item>
       <title>Being in Twenties</title>
-      <link>http://localhost:8000/2010/07/28/being-in-twenties/</link>
+      <link>http://bhashkar.me/2010/07/28/being-in-twenties/</link>
       <pubDate>Wed, 28 Jul 2010 10:35:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2010/07/28/being-in-twenties/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2010/07/28/being-in-twenties/</guid>
       <author></author>
       <description>&lt;p&gt;Here I would like to make it clear upfront that this is not a piece written by me. A friend mailed it to me and I found it worth reading, and so considered the best to share it with the World. The copy-paste begins:&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1430,9 +1430,9 @@ I am my own grandpa!&lt;/p&gt;
     </item>
     <item>
       <title>You can befool all the people, all the time...</title>
-      <link>http://localhost:8000/2010/07/14/you-can-befool-all-the-people-all-the-time/</link>
+      <link>http://bhashkar.me/2010/07/14/you-can-befool-all-the-people-all-the-time/</link>
       <pubDate>Wed, 14 Jul 2010 14:39:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2010/07/14/you-can-befool-all-the-people-all-the-time/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2010/07/14/you-can-befool-all-the-people-all-the-time/</guid>
       <author></author>
       <description>&lt;p&gt;…as Apple does it.&lt;/p&gt;
 &lt;p&gt;Don’t get me wrong here. I’m no Microsoft-phile, nor am I an Apple hater, or even an open-source-rer for that matter. Honestly speaking, I find it really hard to choose one over the other in the real World where we all live, and perfection is far from a possibility.&lt;span class=&quot;more&quot; /&gt; I revere Steve Jobs for the miraculous person that he is, for the vision he has, the products he creates… et al. And honestly speaking, it is very much possible that we all would still have ugly hardware for our devices (not that every other company is making them ugly, its just that Steve was the pioneer in realizing the Consumer Appliance aspect of computers as we see them today) had it not been for him. And the ‘just works’ and ‘plug-n-play’ was implemented by Apple way before any other company could come even close in competition. And even today, the implementation by Apple is as smooth and seamless as it gets. Not to mention the effect its products have on people. Once you start using an Apple product, you’ll fall in love with it.&lt;/p&gt;
@@ -1443,9 +1443,9 @@ I am my own grandpa!&lt;/p&gt;
     </item>
     <item>
       <title>Bingo!</title>
-      <link>http://localhost:8000/2010/07/09/bingo/</link>
+      <link>http://bhashkar.me/2010/07/09/bingo/</link>
       <pubDate>Fri, 09 Jul 2010 17:54:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2010/07/09/bingo/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2010/07/09/bingo/</guid>
       <author></author>
       <description>&lt;p&gt;…and here we go! My blog can finally be read on mobile (that is, in a perfectly mobile-readable format) as easily as it can get. Thanks to MobStac B! :P :P&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Okay.. I’m not here doing the advertisement of some product. This is something which I have been a part of, and has been what I’ve been working on in the past few months, and to see it come to life (read: going Live) is one ecstatic experience. I’m lovin’ it, as they say.&lt;/p&gt;
@@ -1454,18 +1454,18 @@ I am my own grandpa!&lt;/p&gt;
     </item>
     <item>
       <title>What do you know...</title>
-      <link>http://localhost:8000/2010/04/25/what-do-you-know/</link>
+      <link>http://bhashkar.me/2010/04/25/what-do-you-know/</link>
       <pubDate>Sun, 25 Apr 2010 17:05:55 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2010/04/25/what-do-you-know/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2010/04/25/what-do-you-know/</guid>
       <author></author>
       <description>&lt;p&gt;Well.. call this post a placeholder or dummy text or wateva you want… its here because I’ m finding myself too busy to come up with something substantial, as of now! Later.&lt;/p&gt;
 </description>
     </item>
     <item>
       <title>Housekeeping</title>
-      <link>http://localhost:8000/2010/04/22/housekeeping/</link>
+      <link>http://bhashkar.me/2010/04/22/housekeeping/</link>
       <pubDate>Thu, 22 Apr 2010 09:59:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2010/04/22/housekeeping/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2010/04/22/housekeeping/</guid>
       <author></author>
       <description>&lt;p&gt;Hey fellas! That’s rite… We’ve moved. Now we’re found chiefly on our homeblog… presence at other locations may or maynot be relevant. It’d be good if you check beforehand.. :P&lt;span class=&quot;more&quot; /&gt;
 After going thru an export-import cycle; I finally managed to get my blog posts back to home… Then the tweaking of look-and-feel began and, I guess this is the outcome… for now!!&lt;/p&gt;
@@ -1480,9 +1480,9 @@ A bit of technical stuff: I apologize to all the frameworks which, I wrongly use
     </item>
     <item>
       <title>What's happening</title>
-      <link>http://localhost:8000/2010/03/27/what-s-happening/</link>
+      <link>http://bhashkar.me/2010/03/27/what-s-happening/</link>
       <pubDate>Sat, 27 Mar 2010 14:51:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2010/03/27/what-s-happening/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2010/03/27/what-s-happening/</guid>
       <author></author>
       <description>&lt;p&gt;Wow, people… I really apologize for my regular procrastination in updating the blog… but this time, all I can promise is that I will try to be back as soon as possible, without giving you any false hopes on when that will be…&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;As I have went through a lot of stuff in the meanwhile… the story in short after the last post has been thus: I moved back to my hometown, swine flu was on a rampage at that time, the death toll had really mounted high.. Celebrated my birthday and Diwali @ home while prepping up for the CAT n other management entrance exams… moved to Delhi at the end of November to give all those tests which happened to be in the month of December for the most part… It was then that I discovered The Secret.. thanks a lot Tapas bhai.. I can never thank you enough for this…but then, as they say, everything happens for a reason. I’m saying this because my very good friend and colleague Nikunj recommended The Secret to me when we were still at college. Do you know the best part? I got the movie, gave it to hime and not once tried to watch it, despite his repeated prodding me to do so…&lt;/p&gt;
@@ -1496,9 +1496,9 @@ As they’d say at McD’s- I’m lovin’ it!&lt;/p&gt;
     </item>
     <item>
       <title>Everything on sale!</title>
-      <link>http://localhost:8000/2009/08/10/everything-on-sale/</link>
+      <link>http://bhashkar.me/2009/08/10/everything-on-sale/</link>
       <pubDate>Mon, 10  Aug 2009 04:14:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2009/08/10/everything-on-sale/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2009/08/10/everything-on-sale/</guid>
       <author></author>
       <description>&lt;p&gt;It makes me wonder- have the companies started producing low-grade products in ridiculous quantities that they HAVE TO sell at low prices to get rid of them; or have they been trying to lure the class of people who could not previously afford their products and make them addicted; or its all just a farce, and the GREATER GOOD is worked out by affixing a tag displaying the price at least four times the actual (and I mean selling) price of the product, and providing a 40% DISCOUNT on it. Get robbed. Everyone’s invited!&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We might have been accustomed to this idea as we’ve been seeing these strategies (how can we forget the kid-luring stuff that they give FREE with their products) in action since forever. But there is still a class of people, such as those who’ve recently migrated from towns to metros and the likes, who get thrilled at the thought of making such a good bargain, and thus get carried away. As for the Gen-Now, the metro-kid since birth, and having got ample opportunities to visit the innumerable outlets around them, they go for  stuff only if they feel like it, unless they’ve turned into shopaholics. For the pampered lot, it doesn’t matter to them whether the price is 20% or 200%, they’d buy it if they have to. What sucks is that companies are luring people to consumerism, at its dirtiest.&lt;/p&gt;
@@ -1512,9 +1512,9 @@ Consumerism has indeed taken its toll on us.&lt;/p&gt;
     </item>
     <item>
       <title>The Unnamed Poem</title>
-      <link>http://localhost:8000/2009/08/05/the-unnamed-poem/</link>
+      <link>http://bhashkar.me/2009/08/05/the-unnamed-poem/</link>
       <pubDate>Wed, 05  Aug 2009 13:10:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2009/08/05/the-unnamed-poem/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2009/08/05/the-unnamed-poem/</guid>
       <author></author>
       <description>&lt;p&gt;Hi Fellas! Following is something that I came up with during the time my precious YearBook was under construction. Although I couldn’t make it very complete or appealing, yet thought it best to post it here, so it can be read by you:&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;This world around me,&lt;br /&gt;
@@ -1576,9 +1576,9 @@ Ghosts appear and fade away.&lt;/p&gt;
     </item>
     <item>
       <title>Looking back...</title>
-      <link>http://localhost:8000/2008/12/19/looking-back/</link>
+      <link>http://bhashkar.me/2008/12/19/looking-back/</link>
       <pubDate>Fri, 19 Dec 2008 12:46:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2008/12/19/looking-back/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2008/12/19/looking-back/</guid>
       <author></author>
       <description>&lt;p&gt;And how much I wish to be faring in the ‘Alumni Speaks’ section in some edition of KNOL, or MUCUR (only if it had one, for that matter) after we finish college. Lookin back…. Sweet aint it?&lt;span class=&quot;more&quot; /&gt; The ride through the time… remembering everything now seems a breeze… but there’ve been mightier times… remember when the POLICE came to make the encroached boundary turn to dust…. Lol… life was so much (jus can’t find the adjective)… or times amongst ourselves… having a Tappi night-out to IIT for THOMSO… things just couldn’t get better, atleast in this gloomy city but things actually are that MAST… all those booze sessions (just 2 be clear I never got that thing down my throat) on-the-rocks in hostels n the coming-up vomit (Yuck that sucks!) but yeah to admit it was all a part of life…. I’ve seen the life of both, that of a ground floor boy, easily the most studious lobby of hostel as well as that of a next-to-top floor guy belonging to the most BAKAR wing of the hostel… yeah enjoyment comes to thou whether or not you seek it there… lovely ;-)…. Momo-wallah out there… not to 4get Royal k parathe (how innumerable times have they proved time n again to be life savers)… then Roorkee trips… Vikram, Bus, Truck, Canter, lift in a car, you name it… almost all of the possible terrestrial modes of transportation have been utilized in making these trips (how much would day-scholars would miss it!)&lt;/p&gt;
 &lt;p&gt;Things don’t end here… remember how much all of us liked to curse THE DICTATOR?? Not content with makin our life a prison, he could easily go ahead to makin it a living hell had he got his wish… mmmph!!! N same was the story wid the faculty… some of them really cool, other not that much… but wat the hell, the cursing was an inseperable part of their schedule as well…&lt;/p&gt;
@@ -1587,9 +1587,9 @@ Ghosts appear and fade away.&lt;/p&gt;
     </item>
     <item>
       <title>To, Knol</title>
-      <link>http://localhost:8000/2008/11/30/to-knol/</link>
+      <link>http://bhashkar.me/2008/11/30/to-knol/</link>
       <pubDate>Sun, 30 Nov 2008 09:36:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2008/11/30/to-knol/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2008/11/30/to-knol/</guid>
       <author></author>
       <description>&lt;p&gt;You guys might be wondering what’s with this surge of enlightenment amongst the final years that’s been keeping them on their toes working so hard to bring out a mag such as this. Well, the excitement of being a creator, that’s known to all of us, constitutes one of the prime reasons for the same. Yet it’s not all, far from being the heart and soul of the matter.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Well, as the legend goes, our dearest friend Nix (this being the Linux version for Nikunj; derived from good old buddy Tux, the Linux mascot penguin – courtesy me, although his pet names like ‘Niks’ (mark the difference!)or ‘Lambu’ already were in existence) came up with the stupendously superb idea of publishing an e-mag that’d carry the informal as well as formal stuff pertaining to college happenings and activities. An e-mag was a good choice due to many a reasons quoting all of which is neither necessary nor required here. A few of the many would be the easy distribution, the almost priceless (either way!) creation and best of all- on-the-fly readability. That’s really brilliant, my friend.&lt;/p&gt;
@@ -1601,9 +1601,9 @@ Ghosts appear and fade away.&lt;/p&gt;
     </item>
     <item>
       <title>A new era</title>
-      <link>http://localhost:8000/2008/11/30/a-new-era/</link>
+      <link>http://bhashkar.me/2008/11/30/a-new-era/</link>
       <pubDate>Sun, 30 Nov 2008 08:40:00 +0630</pubDate>
-      <guid isPermaLink="true">http://localhost:8000/2008/11/30/a-new-era/</guid>
+      <guid isPermaLink="true">http://bhashkar.me/2008/11/30/a-new-era/</guid>
       <author></author>
       <description>&lt;p&gt;First of all, I’d very much like to thank Nix for reawakening my interest in writing. Had it not been for his recommendation, I wud never’ve started wid this stuff. Thanks mate.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Well, its a matter of yesterday (literally so) that our Jawans have eliminated all the terrorists and freed the hostages held captive in the luxury hotels of Mumbai, namely, the Taj, Trident and Oberoi. After a continuous firing of 50 or more hours and loss of lives of more than 100 people (the casualties includes foreign tourists, VVIPs and not to forget, the Chief and other Jawans of the ATS - the Anti-Terrorist Squad, were they finally able to free the hostages. There were bombs planted in the hotels, to add to the destruction. Parts of hotels were destroyed.&lt;/p&gt;
