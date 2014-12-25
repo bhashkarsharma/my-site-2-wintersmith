@@ -8,3 +8,5 @@ comments: true
 Trying a simple painting today: <span class="more"/>
 
 ![](http://static.bhashkar.me/images/christmas.jpg)
+
+Merry Christmas, everyone!
