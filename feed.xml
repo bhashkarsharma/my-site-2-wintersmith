@@ -5,9 +5,20 @@
     <atom:link href="http://bhashkar.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://bhashkar.me</link>
     <description>Dreamer. Wonderer.</description>
-    <pubDate>Thu, 20 Nov 2014 11:00:00 +0630</pubDate>
+    <pubDate>Thu, 25 Dec 2014 12:40:00 +0630</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Christmas</title>
+      <link>http://bhashkar.me/2014/12/25/christmas/</link>
+      <pubDate>Thu, 25 Dec 2014 12:40:00 +0630</pubDate>
+      <guid isPermaLink="true">http://bhashkar.me/2014/12/25/christmas/</guid>
+      <author></author>
+      <description>&lt;p&gt;Trying a simple painting today: &lt;span class=&quot;more&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://static.bhashkar.me/images/christmas.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Merry Christmas, everyone!&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Self Help</title>
       <link>http://bhashkar.me/2014/11/20/self-help/</link>
