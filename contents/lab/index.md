@@ -4,7 +4,7 @@ template: page.hbs
 description: Welcome to the Lab!
 ---
 
-Welcome to the Lab! Here's some of the things I play around with.
+Welcome to the Lab! Here are some of my experiments.
 
 <div class="row">
     <div class="4u">

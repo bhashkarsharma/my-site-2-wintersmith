@@ -180,7 +180,7 @@
 			section:last-child,
 			article:last-child
 			{
-				margin-bottom: 0;
+				/*margin-bottom: 0;*/
 			}
 
 			.row > section,
@@ -494,6 +494,7 @@
 				margin: 0;
 				padding: 1em 0 1em 0;
 				font-size: 0.8em;
+				text-align: center;
 			}
 
 				.item header h3
