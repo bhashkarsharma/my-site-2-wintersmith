@@ -1,6 +1,7 @@
 ---
 title: Helvetica Clock
 template: page.hbs
+description: The classic Helvetica clock
 ---
 <style>
 #post section {

@@ -1,6 +1,7 @@
 ---
 title: Snake
 template: page.hbs
+description: The classic game of snake
 ---
 <style>
 #post section {

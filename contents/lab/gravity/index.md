@@ -1,6 +1,7 @@
 ---
 title: Gravity Demo
 template: page.hbs
+description: Gravity in canvas.
 ---
 <style>
 #post section {
@@ -17,7 +18,7 @@ Trying to implement basic gravity demo in canvas.
 
 <div id="can"></div>
 <div id="stat"></div>
-<script src="https://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.1.min.js"></script>
+<script src="/js/kinetic-v5.0.2.min.js"></script>
 <script type="text/javascript">
 var round = function(num, digits) {
     return +(Math.round(num + "e+" + digits)  + "e-" + digits);

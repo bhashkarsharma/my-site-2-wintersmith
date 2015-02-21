@@ -1,6 +1,7 @@
 ---
 title: Segment Clock
 template: page.hbs
+description: Concept clock design
 ---
 <style type="text/css">
 .toosmall {
@@ -75,7 +76,7 @@ template: page.hbs
         padding: 0em;
     }
 
-    .top, .bottom {
+    section .top, section .bottom {
         height: 60px;
     }
 
@@ -161,7 +162,7 @@ template: page.hbs
         padding: 0em;
     }
 
-    .top, .bottom {
+    section .top, section .bottom {
         height: 60px;
     }
 
@@ -251,7 +252,7 @@ template: page.hbs
         padding: 1em;
     }
 
-    .top, .bottom {
+    section .top, section .bottom {
         height: 60px;
     }
 

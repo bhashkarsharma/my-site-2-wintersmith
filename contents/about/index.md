@@ -1,6 +1,7 @@
 ---
 title: Hello there!
 template: page.hbs
+description: About Bhashkar Sharma
 ---
 <style>
 .video-box { display: none; }

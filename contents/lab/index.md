@@ -1,6 +1,7 @@
 ---
 title: Lab
 template: page.hbs
+description: Welcome to the Lab!
 ---
 
 Welcome to the Lab! Here's some of the things I play around with.
