@@ -95,6 +95,10 @@
                 
             </div>
 
+    {{#if page}}
+    {{#if page.metadata.script}}<script type="text/javascript" src="script.js"></script>{{/if}}
+    {{/if}}
+
     {{>ga}}
 
     </body>
