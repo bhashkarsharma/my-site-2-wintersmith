@@ -5,9 +5,36 @@
     <atom:link href="http://bhashkar.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://bhashkar.me</link>
     <description>Dreamer. Wonderer.</description>
-    <pubDate>Thu, 25 Dec 2014 12:40:00 +0630</pubDate>
+    <pubDate>Wed, 04 Mar 2015 13:40:00 +0630</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Technology and Openness</title>
+      <link>http://bhashkar.me/2015/03/04/technology-and-openness/</link>
+      <pubDate>Wed, 04 Mar 2015 13:40:00 +0630</pubDate>
+      <guid isPermaLink="true">http://bhashkar.me/2015/03/04/technology-and-openness/</guid>
+      <author></author>
+      <description>&lt;p&gt;The idealist in me wants to see the walled gardens of technology fail and fall.&lt;span class=&quot;more&quot;/&gt; The technologist in me is happy that at least people are getting a quality service &lt;del&gt;for free&lt;/del&gt; in exchange for their data.&lt;/p&gt;
+&lt;p&gt;For example, I would personally prefer Jabber to Hangouts or Facebook Messenger, but in the long run, it probably wouldn’t work on an Internet financed by data harvesting and advertisements. Where would you get the money to pay for servers? And then there is the question of maintaining and improving the product quality and user experience.&lt;/p&gt;
+&lt;p&gt;As a user I prefer the ease of dropping the files in a &lt;a href=&quot;http://dropbox.com/&quot;&gt;Dropbox&lt;/a&gt; folder and not have to worry about syncing; or to be able to leave an offline message to my friends on one of the proprietary services and be assured that they will see it when they come online.&lt;/p&gt;
+&lt;p&gt;There has to be a way to bring seamless UX and open technologies together, and whoever figures it out will revolutionize software in a big way. &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt; is a great step in the direction, but we have a long way to go. I like BitTorrent initiatives towards launching user-friendly decentralized applications such as &lt;a href=&quot;http://www.getsync.com/&quot;&gt;Sync&lt;/a&gt; and &lt;a href=&quot;http://labs.bittorrent.com/bleep/&quot;&gt;Bleep&lt;/a&gt;; the odds of them being used are a hundred times more than command-line tools, or self-hosted Jabber installations. &lt;/p&gt;
+&lt;p&gt;I care about and love technology because it allows us to share our ideas with each other in a tangible form. The Internet has become successful because it makes it possible to reach people across the globe just by writing some lines of code and running it on a computer in my garage, or even in Amazon or Google’s garages. The power of technology is in making things easier for people, and enabling people to do things they previously couldn’t. Empowering people is the reason technology has become mainstream despite 99% of people not understanding how it works. And it is okay to an extent.&lt;/p&gt;
+&lt;p&gt;As long as there is oversight and laws protecting people’s interests, it is okay for common man to not understand how their machines work under the hood (although I always recommend learning more about things).&lt;/p&gt;
+&lt;p&gt;The problem today is that both, &lt;a href=&quot;http://www.savetheinternet.com/net-neutrality-what-you-need-know-now&quot;&gt;companies&lt;/a&gt; and governments are trying to control the Internet and turn it from something that allows free flow of ideas, into a system that works in their own best interests. It is not inherently surprising, as humans have the ability to empathize only with a very small number of people whom they personally interact with. Others are relegated to account numbers or email addresses.&lt;/p&gt;
+&lt;div class=&quot;video-box&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/4VdO7LuoBzM?start=833&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The system should be designed to be temper-proof from external agents like these that cripple its freedom. As it is, not every computer on the Internet is an equal citizen. A lot of that is on the whims on the ISPs, governments and technology providers. Heading further in this direction can only stifle the freedom that has brought about the free Internet.&lt;/p&gt;
+&lt;div class=&quot;video-box&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/fpbOEoRrHyU&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As for illegal activities such as child-porn and drug-trade happening online, there ought to be, and already are, laws that limit these activities. Every once in a while, there are crackdown on such activities. Unluckily, there is no vaccine for human nature and creativity when it comes to finding novel solutions and workarounds. After all, that is how we became civilized enough to reach here.&lt;/p&gt;
+&lt;p&gt;Most people want to enjoy talking to their friends and watching cat videos on the Internet without having to worry about all the complexity that goes into its working. Their rights to privacy should be respected and protected. Despite plenty of wiretapping and snooping done by governments, a &lt;a href=&quot;http://www.washingtonpost.com/world/national-security/nsa-phone-record-collection-does-little-to-prevent-terrorist-attacks-group-says/2014/01/12/8aa860aa-77dd-11e3-8963-b4b654bcc9b2_story.html&quot;&gt;White House-appointed group found out&lt;/a&gt; that it hadn’t lead to any effective stopping of terror activities.&lt;/p&gt;
+&lt;p&gt;When you make fear the rationale behind making your laws, there is something inherently wrong and badly in need of a fix.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Christmas</title>
       <link>http://bhashkar.me/2014/12/25/christmas/</link>
