@@ -14,7 +14,9 @@ As I keep repeating like a parrot, Steve Jobs said some amazing things about doi
 
 A friend of mine recently shared this video.
 
-<object width="320" height="266" class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="http://img.youtube.com/vi/jpe-LKn-4gM/0.jpg"><param name="movie" value="http://youtube.googleapis.com/v/jpe-LKn-4gM&source=uds" /><param name="bgcolor" value="#FFFFFF" /><param name="allowFullScreen" value="true" /><embed width="320" height="266"  src="http://youtube.googleapis.com/v/jpe-LKn-4gM&source=uds" type="application/x-shockwave-flash" allowfullscreen="true"></embed></object>
+<div class="video-box">
+    <iframe width="420" height="315" src="//www.youtube.com/embed/jpe-LKn-4gM" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Once again, I was reminded of all the people who hate their work, and feel it doesn't make a difference either. But they're stuck in there just because.
 
