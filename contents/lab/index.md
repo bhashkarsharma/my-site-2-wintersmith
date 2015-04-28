@@ -9,6 +9,14 @@ Welcome to the Lab! Here are some of my experiments.
 <div class="row">
     <div class="4u">
         <article class="item">
+            <a href="/lab/connect/" class="image fit"><img src="/images/connect.png" alt="Connect" /></a>
+            <header>
+                <h3>Connect</h3>
+            </header>
+        </article>
+    </div>
+    <div class="4u">
+        <article class="item">
             <a href="/lab/segment-clock/" class="image fit"><img src="/images/segment-clock.png" alt="Segment Clock" /></a>
             <header>
                 <h3>Segment Clock</h3>
