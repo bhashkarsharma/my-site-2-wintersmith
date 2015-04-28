@@ -1,0 +1,43 @@
+#username {
+    font-weight: bold;
+}
+
+#chats {
+    max-height: 350px;
+    overflow: scroll;
+    margin: 1em 0;
+}
+
+.bubble {
+    border: 1px solid;
+    padding: 4px 15px;
+    margin: 5px 0;
+    border-radius: 22px;
+    clear: both;
+}
+
+.send {
+    float: right;
+    background: #dce3e2;
+}
+
+.receive {
+    float: left;
+    background: white;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+#send {
+    padding: 0.1em 1em;
+}
+
+.offline {
+    background-color: #FF9999;
+}
+
+#video {
+    display: none;
+}
