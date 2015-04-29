@@ -126,7 +126,7 @@
         <section>
             <p>While trying to set up the development environment for my site, I was having problems making VirtualBox Guest Additions let me share files with the host <span class="caps">OS</span>. The production env is Ubuntu Server 12.04 running on AWS EC2 so it was obvious I had to use a VM on the MacBook to ensure my dev env is in sync with the production.<span class="more" /></p>
 <p>When a couple of tries failed, I decided to start fresh. I deleted the existing <span class="caps">VM</span>, churned out a new machine and installed Ubuntu Server 12.04 (Precise Pangolin) on it. Then I proceeded with installing the VirtualBox Guest Additions. For this, I mounted the VBoxGuestAdditions_4.1.6.iso on the machine and ran the following command on&nbsp;it</p>
-<pre><code class="lang-bash"><span class="built_in">sudo</span> ./VBoxLinuxAdditions.run
+<pre><code class="lang-bash">sudo ./VBoxLinuxAdditions.run
 </code></pre>
 <p>and here’s the&nbsp;output</p>
 <pre><code class="lang-bash">Verifying archive integrity... All good.
@@ -140,7 +140,7 @@ module compilation fails <span class="keyword">then</span> this could be the rea
 
 Building the main Guest Additions module ...done.
 Building the shared folder support module ...fail!
-(Look at /var/log/vboxadd-install.log to find out what went wrong)
+(Look at /var/<span class="built_in">log</span>/vboxadd-install.log to find out what went wrong)
 Doing non-kernel setup of the Guest Additions ...done.
 Installing the Window System drivers ...fail!
 (Could not find the X.Org or XFree86 Window System.)
@@ -148,7 +148,7 @@ Installing the Window System drivers ...fail!
 <p>The aforementioned log file printed&nbsp;thus</p>
 <pre><code class="lang-bash">/tmp/vbox.<span class="number">0</span>/utils.c:<span class="number">122</span>:<span class="number">9</span>: error: assignment of <span class="built_in">read</span>-only member ‘i_nlink’
 /tmp/vbox.<span class="number">0</span>/utils.c:<span class="number">132</span>:<span class="number">9</span>: error: assignment of <span class="built_in">read</span>-only member ‘i_nlink’
-/tmp/vbox.<span class="number">0</span>/utils.c: In function ‘sf_nlscpy’:
+/tmp/vbox.<span class="number">0</span>/utils.c: In <span class="keyword">function</span> ‘sf_nlscpy’:
 /tmp/vbox.<span class="number">0</span>/utils.c:<span class="number">563</span>:<span class="number">13</span>: warning: passing argument <span class="number">3</span> of ‘utf8_to_utf32’ from incompatible pointer <span class="built_in">type</span> [enabled by default]
 include/linux/nls.h:<span class="number">53</span>:<span class="number">12</span>: note: expected ‘unicode_t *’ but argument is of <span class="built_in">type</span> ‘wchar_t *’
 make[<span class="number">2</span>]: *** [/tmp/vbox.<span class="number">0</span>/utils.o] Error <span class="number">1</span>

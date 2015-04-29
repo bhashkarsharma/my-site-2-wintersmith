@@ -125,9 +125,9 @@
         </header>
         <section>
             <p>I was testing something out, and realized that I needed to clone my database to run some tests while still being able to keep the data intact. And that’s when I started searching for a way to do it, and turns out there’s a one-liner to do the same :) <span class="more" /></p>
-<pre><code class="lang-sql"># mysqladmin <span class="operator"><span class="keyword">create</span> DB_name -u DB_user --password=DB_pass &amp;&amp; \
-mysqldump -u DB_user --password=DB_pass DB_name |
-mysql -u DB_user --password=DB_pass -h DB_host DB_name</span>
+<pre><code class="lang-sql"># mysqladmin <span class="operator"><span class="keyword">create</span> DB_name -u DB_user <span class="comment">--password=DB_pass &amp;&amp; \</span>
+mysqldump -u DB_user <span class="comment">--password=DB_pass DB_name |</span>
+mysql -u DB_user <span class="comment">--password=DB_pass -h DB_host DB_name</span></span>
 </code></pre>
 <p>This is the site where I found it: <a href="http://www.rubyrobot.org/article/duplicate-a-mysql-database">http://www.rubyrobot.org/article/duplicate-a-mysql-database</a> (although at this point of time I’m kinda feeling it was moot writing this post as anyone Googling for the solution can land on the page anyway :P&nbsp;)</p>
 <p>Gotta run! Peace&nbsp;out.</p>

@@ -739,7 +739,7 @@ Domain Last Updated Date: Mon Oct &lt;span class=&quot;number&quot;&gt;08&lt;/sp
       <author></author>
       <description>&lt;p&gt;While trying to set up the development environment for my site, I was having problems making VirtualBox Guest Additions let me share files with the host OS. The production env is Ubuntu Server 12.04 running on AWS EC2 so it was obvious I had to use a VM on the MacBook to ensure my dev env is in sync with the production.&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;When a couple of tries failed, I decided to start fresh. I deleted the existing VM, churned out a new machine and installed Ubuntu Server 12.04 (Precise Pangolin) on it. Then I proceeded with installing the VirtualBox Guest Additions. For this, I mounted the VBoxGuestAdditions_4.1.6.iso on the machine and ran the following command on it&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; ./VBoxLinuxAdditions.run
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;sudo ./VBoxLinuxAdditions.run
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;and here’s the output&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;Verifying archive integrity... All good.
@@ -753,7 +753,7 @@ module compilation fails &lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;
 
 Building the main Guest Additions module ...done.
 Building the shared folder support module ...fail!
-(Look at /var/log/vboxadd-install.log to find out what went wrong)
+(Look at /var/&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;/vboxadd-install.log to find out what went wrong)
 Doing non-kernel setup of the Guest Additions ...done.
 Installing the Window System drivers ...fail!
 (Could not find the X.Org or XFree86 Window System.)
@@ -761,7 +761,7 @@ Installing the Window System drivers ...fail!
 &lt;p&gt;The aforementioned log file printed thus&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;/tmp/vbox.&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;/utils.c:&lt;span class=&quot;number&quot;&gt;122&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;9&lt;/span&gt;: error: assignment of &lt;span class=&quot;built_in&quot;&gt;read&lt;/span&gt;-only member ‘i_nlink’
 /tmp/vbox.&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;/utils.c:&lt;span class=&quot;number&quot;&gt;132&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;9&lt;/span&gt;: error: assignment of &lt;span class=&quot;built_in&quot;&gt;read&lt;/span&gt;-only member ‘i_nlink’
-/tmp/vbox.&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;/utils.c: In function ‘sf_nlscpy’:
+/tmp/vbox.&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;/utils.c: In &lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; ‘sf_nlscpy’:
 /tmp/vbox.&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;/utils.c:&lt;span class=&quot;number&quot;&gt;563&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;13&lt;/span&gt;: warning: passing argument &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt; of ‘utf8_to_utf32’ from incompatible pointer &lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt; [enabled by default]
 include/linux/nls.h:&lt;span class=&quot;number&quot;&gt;53&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;12&lt;/span&gt;: note: expected ‘unicode_t *’ but argument is of &lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt; ‘wchar_t *’
 make[&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;]: *** [/tmp/vbox.&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;/utils.o] Error &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;
@@ -1080,9 +1080,9 @@ sub_re = &lt;span class=&quot;string&quot;&gt;'(Friends)( )(-)( )(1)(\\.)(?P&amp
       <guid isPermaLink="true">http://bhashkar.me/2011/10/19/duplicate-a-mysql-database/</guid>
       <author></author>
       <description>&lt;p&gt;I was testing something out, and realized that I needed to clone my database to run some tests while still being able to keep the data intact. And that’s when I started searching for a way to do it, and turns out there’s a one-liner to do the same :) &lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-sql&quot;&gt;# mysqladmin &lt;span class=&quot;operator&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;create&lt;/span&gt; DB_name -u DB_user --password=DB_pass &amp;amp;&amp;amp; \
-mysqldump -u DB_user --password=DB_pass DB_name |
-mysql -u DB_user --password=DB_pass -h DB_host DB_name&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-sql&quot;&gt;# mysqladmin &lt;span class=&quot;operator&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;create&lt;/span&gt; DB_name -u DB_user &lt;span class=&quot;comment&quot;&gt;--password=DB_pass &amp;amp;&amp;amp; \&lt;/span&gt;
+mysqldump -u DB_user &lt;span class=&quot;comment&quot;&gt;--password=DB_pass DB_name |&lt;/span&gt;
+mysql -u DB_user &lt;span class=&quot;comment&quot;&gt;--password=DB_pass -h DB_host DB_name&lt;/span&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This is the site where I found it: &lt;a href=&quot;http://www.rubyrobot.org/article/duplicate-a-mysql-database&quot;&gt;http://www.rubyrobot.org/article/duplicate-a-mysql-database&lt;/a&gt; (although at this point of time I’m kinda feeling it was moot writing this post as anyone Googling for the solution can land on the page anyway :P )&lt;/p&gt;
 &lt;p&gt;Gotta run! Peace out.&lt;/p&gt;
