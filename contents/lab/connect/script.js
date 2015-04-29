@@ -1,4 +1,4 @@
-var me, conn, player, peername, lasthb, hbwait = 30000, hbstr = "hbt:live:", playstr = "plc:", interval;
+var me, conn, player, peername, lasthb, hbwait = 30000, hbstr = "hbt:live:", playstr = "plc:", interval, timeout;
 
 $(document).ready(function() {
     
@@ -8,6 +8,8 @@ $(document).ready(function() {
     });
     me.on('connection', function(conn) {
         conn.on('data', function(data) {
+            setPeername(conn.peer);
+            $('#peername').val(conn.peer);
             chat.processMessage(data, "receive");
         });
     });
@@ -17,10 +19,21 @@ $(document).ready(function() {
     });
     
     $('#peername').on('input propertychange paste', function() {
-        peername = $(this).val();
+        setPeername($(this).val());
+    });
+    
+    $('#clearChats').on('click', function() {
+        $('#chats').empty();
+        $(this).hide();
     });
     
     $('form').submit(function() { return false; });
+    
+    $('#msg').keypress(function (e) {
+        if (e.keyCode == 13) {
+            $('#send').trigger('click');
+        }
+    });
     
     $('#send').on('click', function() {
         var val = chat.removeTags($('#msg').val());
@@ -35,6 +48,13 @@ $(document).ready(function() {
     });
 
 });
+
+var setPeername = function(val) {
+    $('#peername').addClass('highlight');
+    if (timeout !== undefined) clearTimeout(timeout);
+    timeout = setTimeout(function() { $('#peername').removeClass('highlight'); }, 1000);
+    peername = val;
+}
 
 // video player
 var video = (function() {
@@ -108,10 +128,12 @@ var chat = (function() {
             video.setUp();
         }
         add(resp, direction);
+        
+        if ($('#chats').children().length > 0) $('#clearChats').show();
     };
     
     var send = function(msg) {
-        if (peername !== undefined && peername.length > 0) {
+        if (peername !== undefined && peername.length > 0 && msg.length > 0) {
             conn = me.connect(peername);
             conn.on('open', function() {
                 conn.send(msg);
@@ -170,7 +192,7 @@ var heartbeat = (function() {
         lasthb = Date.now();
         if (val.indexOf(hbstr) === 0) {
             var arr = val.split(":");
-            $('#peername').val(arr[3]);
+            setPeername(arr[3]);
             start();
             return true;
         }

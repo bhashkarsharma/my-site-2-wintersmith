@@ -16,13 +16,15 @@ A simple peer-to-peer chat application that allows people to watch YouTube video
     </form>
 </div>
 
-<div id="video">
+<div class="video-box" id="video">
     <video width="640" height="360" id="player" preload="none">
         <source type="video/youtube" src="http://www.youtube.com/watch?v=Wch3gJG2GJ4" />
     </video>
 </div>
 
-<div id="chats"></div>
+<div id="chats">
+</div>
+<a href="javascript:void(0);" id="clearChats">Clear history</a>
 
 <div class="row">
     <div class="3u">
