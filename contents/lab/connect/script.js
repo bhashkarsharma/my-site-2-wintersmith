@@ -1,4 +1,4 @@
-var me, conn, player, peername, lasthb, hbwait = 30000, hbstr = "hbt:live:", playstr = "plc:", interval, timeout;
+var me, conn, player, peername, lasthb, hbwait = 30000, hbstr = "hbt:live:", playstr = "plc:", interval, timeout, isActive;
 
 $(document).ready(function() {
     
@@ -8,7 +8,8 @@ $(document).ready(function() {
     });
     me.on('connection', function(conn) {
         conn.on('data', function(data) {
-            setPeername(conn.peer);
+            notifyMe(conn.peer + " says...", data);
+            if (peername != conn.peer) setPeername(conn.peer);
             $('#peername').val(conn.peer);
             chat.processMessage(data, "receive");
         });
@@ -46,6 +47,10 @@ $(document).ready(function() {
             });
         }
     });
+    
+    $(window).on('focus', function() { isActive = true; });
+    
+    $(window).on('blur', function() { isActive = false; });
 
 });
 
@@ -215,20 +220,24 @@ var heartbeat = (function() {
 })();
 
 var notifyMe = function(title, body) {
-    if (!Notification) {
-        alert('Please us a modern version of Chrome, Firefox, Opera or Firefox.');
-        return;
-    }
+    if (!isActive) {
+        if (!Notification) {
+            return;
+        }
 
-    if (Notification.permission !== "granted") Notification.requestPermission();
+        if (Notification.permission !== "granted") Notification.requestPermission();
 
-    var notification = new Notification('Notification title', {
-        icon: '/images/profile_new.jpg',
-        body: "Hey there! You've been notified!"
-    });
+        var notification = new Notification(title, {
+            icon: '/images/profile_new.jpg',
+            body: body
+        });
 
+        notification.onshow = function() {
+            setTimeout(notification.close.bind(notification), 4000);
+        }
 
-    notification.onclick = function () {
-        window.open(".");
+        notification.onclick = function () {
+            window.open(".");
+        }
     }
 };
