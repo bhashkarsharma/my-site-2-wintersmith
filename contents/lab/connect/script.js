@@ -228,7 +228,7 @@ var notifyMe = function(title, body) {
         if (Notification.permission !== "granted") Notification.requestPermission();
 
         var notification = new Notification(title, {
-            icon: '/images/profile_new.jpg',
+//            icon: '/images/profile_new.jpg',
             body: body
         });
 
