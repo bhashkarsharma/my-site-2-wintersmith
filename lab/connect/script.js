@@ -220,6 +220,9 @@ var heartbeat = (function() {
 })();
 
 var notifyMe = function(title, body) {
+    if (heartbeat.isHB(body) || plc.isPlayerCode(body)) {
+        return;
+    }
     if (!isActive) {
         if (!Notification) {
             return;
