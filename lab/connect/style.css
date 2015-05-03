@@ -50,3 +50,10 @@ input[type="text"] {
 #video {
     display: none;
 }
+
+.incompatible {
+    border: 1px solid grey;
+    padding: 5px 10px;
+    background: #ffaaaa;
+    text-align: center;
+}
