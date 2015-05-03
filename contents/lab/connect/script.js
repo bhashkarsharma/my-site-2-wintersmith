@@ -1,6 +1,10 @@
 var me, conn, player, peername, lasthb, hbwait = 30000, hbstr = "hbt:live:", playstr = "plc:", interval, timeout, isActive;
 
 $(document).ready(function() {
+
+    if ((!!window.webkitRTCPeerConnection || !!window.mozRTCPeerConnection) && 
+        ('WebSocket' in window && 2 === window.WebSocket.CLOSING))
+        $('.incompatible').hide();
     
     me = new Peer({ key : "sild5qn11u8wu3di" });
     me.on('open', function(id) {

@@ -5,6 +5,9 @@ description: In-browser chat application
 style: true
 script: true
 ---
+
+<div class="incompatible">Sorry! This application would not work on your browser. Try switching to Chrome 23+ or Firefox 22+.</div>
+
 A simple peer-to-peer chat application that allows people to watch YouTube videos in sync.
 
 <link rel="stylesheet" href="/css/mediaelementplayer.min.css"/>
