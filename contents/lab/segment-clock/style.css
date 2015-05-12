@@ -241,7 +241,94 @@
         bottom: 15px;
     }
 }
-@media (min-width: 961px) {
+@media (min-width: 961px) and (max-width: 1200px) {
+    #post section {
+        padding: 1em 0;
+    }
+
+    section .top, section .bottom {
+        height: 60px;
+    }
+
+    .before, .middle, .after {
+        height: 128px;
+        width: 38px;
+    }
+
+    .marker {
+        width: 70px;
+    }
+
+    .marker .knob {
+        left: 25px;
+    }
+
+    .marker .knob:nth-child(1) {
+        top: 35px;
+    }
+
+    .marker .knob:nth-child(2) {
+        top: 100px;
+    }
+
+    .digit {
+        width: 76px;
+        height: 129px;
+    }
+
+    .edge {
+        width: 16px;
+        height: 50px;
+        border: 1px solid #aaa;
+        border-radius: 10px;
+        transform-origin: 9px 9px;
+        box-shadow: 1px 1px 1px #666;
+    }
+
+    .knob {
+        width: 18px;
+        height: 18px;
+        border: 1px solid #aaa;
+        border-radius: 12px;
+        box-shadow: 2px 2px 4px #666;
+    }
+
+    .inner {
+        width: 8px;
+        height: 8px;
+        border: 1px solid #aaa;
+        border-radius: 10px;
+        left: 4px;
+        top: 4px;
+    }
+
+    .node:nth-child(1) {
+        left: 0;
+        top: 0;
+    }
+    .node:nth-child(2) {
+        right: 20px;
+        top: 0;
+    }
+    .node:nth-child(3) {
+        left: 0;
+        top: 53px;
+    }
+    .node:nth-child(4) {
+        right: 20px;
+        top: 53px;
+    }
+    .node:nth-child(5) {
+        left: 0;
+        bottom: 24px;
+    }
+    .node:nth-child(6) {
+        right: 20px;
+        bottom: 24px;
+    }
+}
+
+@media (min-width: 1201px) {
     #post section {
         padding: 1em;
     }
@@ -252,7 +339,7 @@
 
     .before, .middle, .after {
         height: 157px;
-        width: 50px;
+        width: 45px;
     }
 
     .marker {
